@@ -21,33 +21,18 @@
 
 **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.4**
 
-1. OpenCore版本：0.7.0（内含自制主题如下图）
-![open core](https://i.loli.net/2021/06/12/Pk1ciW6w28IEQGJ.png)
+1. OpenCore版本：0.7.0（内含自制主题如下图） ![open core](https://i.loli.net/2021/06/12/Pk1ciW6w28IEQGJ.png)
 1. CPU变频：正常。
-1. UHD630：正常，VRAM动态，最大值：4095 MB，开启H.264&HEVC硬件解码加速
-![显卡](https://i.loli.net/2021/06/12/vzuUOC1gq7abTpc.png)
-
-![硬件解码加速：H.264&HEVC解码](https://i.loli.net/2021/06/12/c1mig3wnH2lsGOA.png)
-
+1. UHD630：正常，VRAM动态，最大值：4095 MB，开启H.264&HEVC硬件解码加速 ![显卡](https://i.loli.net/2021/06/12/vzuUOC1gq7abTpc.png) ![硬件解码加速：H.264&HEVC解码](https://i.loli.net/2021/06/12/c1mig3wnH2lsGOA.png)
 1. 3.5mm声音
-1. USB：正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true。(备用USBInjectAll驱动在根目录)
-![USB](https://i.loli.net/2021/06/12/1XyQrsM7m2paN4f.png)
-1. 有线网卡：正常，使用了RealtekRTL8111.kext。
-![有线网卡](https://i.loli.net/2021/06/12/29lJdKBqonkjtcp.png)
-
-1.无线网卡：正常
-
-![Wi-Fi](https://i.loli.net/2021/06/12/ilADj9OuVmFsztp.png)
-
-1. 睡眠唤醒：正常。
-![睡眠](https://i.loli.net/2021/06/12/1K98Dbj3eFywfnY.png)
-
+1. USB：正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true。(备用USBInjectAll驱动在根目录) ![USB](https://i.loli.net/2021/06/12/1XyQrsM7m2paN4f.png)
+1. 有线网卡：正常，使用了RealtekRTL8111.kext。 ![有线网卡](https://i.loli.net/2021/06/12/29lJdKBqonkjtcp.png)
+1.无线网卡：正常 ![Wi-Fi](https://i.loli.net/2021/06/12/ilADj9OuVmFsztp.png)
+1. 睡眠唤醒：正常。![睡眠](https://i.loli.net/2021/06/12/1K98Dbj3eFywfnY.png)
 1. 关机开机：正常。
 1. iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。
 1. AirDrop & HandOff & Continuity：正常。
-
 ![Wi-Fi](https://i.loli.net/2021/06/12/1UrwpiNsKfIb8g3.png)
-
 ![蓝牙](https://i.loli.net/2021/06/12/DJma7dLzorEniOp.png)
 
 ### Tips：
