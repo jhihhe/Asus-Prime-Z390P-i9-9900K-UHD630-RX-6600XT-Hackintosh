@@ -37,6 +37,7 @@
 
 1.无线网卡：正常
 ![Wi-Fi](https://i.loli.net/2021/06/12/ilADj9OuVmFsztp.png)
+
 1. 睡眠唤醒：正常。
 ![睡眠](https://i.loli.net/2021/06/12/1K98Dbj3eFywfnY.png)
 
@@ -45,6 +46,7 @@
 1. AirDrop & HandOff & Continuity：正常。
 
 ![Wi-Fi](https://i.loli.net/2021/06/12/1UrwpiNsKfIb8g3.png)
+
 ![蓝牙](https://i.loli.net/2021/06/12/DJma7dLzorEniOp.png)
 
 ### Tips：
