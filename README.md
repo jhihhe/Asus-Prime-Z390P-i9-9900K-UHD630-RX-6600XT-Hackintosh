@@ -1,6 +1,5 @@
 # Hackintosh-Asus-Prime-Z390P_i9-9900K_UHD630_OpenCore-0.7.0
-Hackintosh-Asus-Prime-Z390P_i9-9900K_UHD630_OpenCore 0.7.0 MacOS Big Sur
-# *Hackintosh-Asus-Prime-Z390P_i9-9900K_UHD630_DualScreens*
+OpenCore 0.7.0 MacOS Big Sur
 
 ![系统信息](https://i.loli.net/2021/06/12/k8NWrKEMi4cQZaT.png)
 
