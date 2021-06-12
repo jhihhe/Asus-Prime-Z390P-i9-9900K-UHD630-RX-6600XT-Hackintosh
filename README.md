@@ -24,7 +24,7 @@
 1. OpenCore版本：0.7.0（内含自制主题如下图）
 ![open core](https://i.loli.net/2021/06/12/Pk1ciW6w28IEQGJ.png)
 1. CPU变频：正常。
-1. UHD630：正常。
+1. UHD630：正常，VRAM动态，最大值：4095 MB，开启H.264&HEVC硬件解码加速
 ![显卡](https://i.loli.net/2021/06/12/vzuUOC1gq7abTpc.png)
 
 ![硬件解码加速：H.264&HEVC解码](https://i.loli.net/2021/06/12/c1mig3wnH2lsGOA.png)
