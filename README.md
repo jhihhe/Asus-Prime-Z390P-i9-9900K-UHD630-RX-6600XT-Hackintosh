@@ -1,4 +1,4 @@
-# Hackintosh-Asus-Prime-Z390P_i9-9900K_UHD630_OpenCore-0.7.0 MacOS Big Sur
+# Hackintosh-Asus-Prime-Z390P_i9-9900K_UHD630_OpenCore-0.7.0 macOS Big Sur
 
 ![系统信息](https://i.loli.net/2021/06/12/k8NWrKEMi4cQZaT.png)
 
@@ -19,7 +19,7 @@
 1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
 1. 设置模式-高级模式
 
-**可适用操作系统版本：macOS Catalina 10.15.1～11.4**
+**可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.4**
 
 1. OpenCore版本：0.7.0（内含自制主题如下图）
 ![open core](https://i.loli.net/2021/06/12/Pk1ciW6w28IEQGJ.png)
