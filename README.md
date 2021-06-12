@@ -30,7 +30,7 @@
 ![硬件解码加速：H.264&HEVC解码](https://i.loli.net/2021/06/12/c1mig3wnH2lsGOA.png)
 
 1. 3.5mm声音
-1. USB：正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb（备用USBInjectAll驱动在根目录），或取消加载USBport.kext，将XhciPortLimit值变更为true。
+1. USB：正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true。(备用USBInjectAll驱动在根目录)
 ![USB](https://i.loli.net/2021/06/12/1XyQrsM7m2paN4f.png)
 1. 有线网卡：正常，使用了RealtekRTL8111.kext。
 ![有线网卡](https://i.loli.net/2021/06/12/29lJdKBqonkjtcp.png)
