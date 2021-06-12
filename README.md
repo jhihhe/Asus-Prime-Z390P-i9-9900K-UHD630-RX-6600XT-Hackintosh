@@ -39,7 +39,6 @@
 1. 睡眠唤醒：正常。
 ![睡眠](https://i.loli.net/2021/06/12/1K98Dbj3eFywfnY.png)
 
-![Power Saver](https://i.imgur.com/wZ7IZjm.png)
 1. 关机开机：正常。
 1. iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。
 1. AirDrop & HandOff & Continuity：正常。
