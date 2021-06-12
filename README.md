@@ -34,6 +34,7 @@
 ![USB](https://i.loli.net/2021/06/12/1XyQrsM7m2paN4f.png)
 1. 有线网卡：正常，使用了RealtekRTL8111.kext。
 ![有线网卡](https://i.loli.net/2021/06/12/29lJdKBqonkjtcp.png)
+
 1.无线网卡：正常
 ![Wi-Fi](https://i.loli.net/2021/06/12/ilADj9OuVmFsztp.png)
 1. 睡眠唤醒：正常。
