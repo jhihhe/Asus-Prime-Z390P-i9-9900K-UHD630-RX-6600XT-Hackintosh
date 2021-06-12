@@ -27,7 +27,7 @@
 1. 3.5mm声音
 1. USB：正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true。(备用USBInjectAll驱动在根目录) ![USB](https://i.loli.net/2021/06/12/1XyQrsM7m2paN4f.png)
 1. 有线网卡：正常，使用了RealtekRTL8111.kext。 ![有线网卡](https://i.loli.net/2021/06/12/29lJdKBqonkjtcp.png)
-1.无线网卡：正常 ![Wi-Fi](https://i.loli.net/2021/06/12/ilADj9OuVmFsztp.png)
+1. 无线网卡：正常 ![Wi-Fi](https://i.loli.net/2021/06/12/ilADj9OuVmFsztp.png)
 1. 睡眠唤醒：正常。![睡眠](https://i.loli.net/2021/06/12/1K98Dbj3eFywfnY.png)
 1. 关机开机：正常。
 1. iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。
