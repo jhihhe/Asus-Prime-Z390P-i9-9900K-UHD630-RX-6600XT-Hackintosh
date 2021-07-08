@@ -1,4 +1,4 @@
-# Hackintosh-Asus-Prime-Z390P_i9-9900K_UHD630_OpenCore-0.7.1 macOS Big Sur
+# Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.1 macOS Big Sur
 
 ![系统信息](https://i.loli.net/2021/06/12/k8NWrKEMi4cQZaT.png)
 
