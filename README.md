@@ -19,7 +19,7 @@
 1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
 1. 设置模式-高级模式
 
-<!-- **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.4/理论支持macOS Monterey 12.0 ** -->
+<!-- **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.4/理论支持macOS Monterey 12.0 ** --!>
 
 1. OpenCore版本：0.7.1（内含自制主题如下图） ![open core](https://i.loli.net/2021/06/12/Pk1ciW6w28IEQGJ.png)
 1. CPU变频：正常。
