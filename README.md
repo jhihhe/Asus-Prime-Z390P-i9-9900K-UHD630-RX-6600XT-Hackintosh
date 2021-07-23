@@ -1,6 +1,6 @@
 # Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.1 macOS Big Sur
 
-![系统信息](https://i.loli.net/2021/06/12/k8NWrKEMi4cQZaT.png)
+![系统信息](https://i.loli.net/2021/07/23/Pb5F1d7wyNJ9GzL.png)
 
 ### 配置
 1. 主板: ASUS PRIME Z390-P
