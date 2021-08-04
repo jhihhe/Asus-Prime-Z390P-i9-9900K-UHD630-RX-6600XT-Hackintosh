@@ -1,5 +1,5 @@
 # Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.2 macOS Big Sur
-
+https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.2-macOS-Big-Sur/releases
 ![系统信息](https://i.loli.net/2021/07/28/CAmqxUb34EQkNyn.png)
 
 ### 配置
