@@ -1,4 +1,4 @@
-# Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.1 macOS Big Sur
+# Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.2 macOS Big Sur
 
 ![系统信息](https://i.loli.net/2021/07/28/CAmqxUb34EQkNyn.png)
 
@@ -21,7 +21,7 @@
 
 # **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.5.1/理论支持macOS Monterey 12.0 **
 
-1. OpenCore版本：0.7.1（内含自制主题如下图） ![open core](https://i.loli.net/2021/06/12/Pk1ciW6w28IEQGJ.png) ![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
+1. OpenCore版本：0.7.2（内含自制主题如下图） ![open core](https://i.loli.net/2021/06/12/Pk1ciW6w28IEQGJ.png) ![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
 1. CPU变频：正常。
 1. UHD630：正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 ![显卡](https://i.loli.net/2021/07/23/nSDZyHCFM9KbvwO.png) ![硬件解码加速：H.264&HEVC解码](https://i.loli.net/2021/07/23/cu7ZCYEIqe3sROt.png)
 1. 3.5mm声音
