@@ -1,5 +1,5 @@
-# Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.2 macOS Big Sur
-下载点击releases，链接：https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.2-macOS-Big-Sur/releases
+# Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.3 macOS
+下载点击releases
 ![系统信息](https://i.loli.net/2021/08/12/cyBZNPtbaU41hAE.png)
 
 ### 配置
@@ -9,7 +9,7 @@
 1. 板载网卡: Realtek® RTL8111H Gigabit LAN Controller
 1. WiFi/蓝牙: BCM943602CS（BT4.2）
 1. 声卡: Realtek® ALC 887 8-Channel High Definition Audio
-1. 固态硬盘: 西数蓝盘固态 500GB
+1. 固态硬盘: 西数SN750 500GB
 
 ### BIOS设置
 1. 高级-CPU设置--Intel(VMX) Virtualization Technology -enable
@@ -21,7 +21,7 @@
 
 # **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.5.2/理论支持macOS Monterey 12.0 **
 
-1. OpenCore版本：0.7.2（内含自制主题如下图） ![open core](https://i.loli.net/2021/06/12/Pk1ciW6w28IEQGJ.png) ![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
+1. OpenCore版本：0.7.3（内含自制主题如下图） ![主题]（https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png）![open core](https://i.loli.net/2021/06/12/Pk1ciW6w28IEQGJ.png) ![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
 1. CPU变频：正常。
 1. UHD630：正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 ![显卡](https://i.loli.net/2021/07/23/nSDZyHCFM9KbvwO.png) ![硬件解码加速：H.264&HEVC解码](https://i.loli.net/2021/07/23/cu7ZCYEIqe3sROt.png)
 1. 3.5mm声音
