@@ -21,9 +21,9 @@
 
 # **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.5.2/理论支持macOS Monterey 12.0 **
 
-1. OpenCore版本：0.7.3（内含自制主题如下图） ![主题]（https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png）![open core](https://i.loli.net/2021/06/12/Pk1ciW6w28IEQGJ.png) ![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
+1. OpenCore版本：0.7.3（内含自制主题如下图） [主题](https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png)[主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
 1. CPU变频：正常。
-1. UHD630：正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 ![显卡](https://i.loli.net/2021/07/23/nSDZyHCFM9KbvwO.png) ![硬件解码加速：H.264&HEVC解码](https://i.loli.net/2021/07/23/cu7ZCYEIqe3sROt.png)
+1. UHD630：正常，VRAM动态，最大值：1536 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 ![显卡](https://i.loli.net/2021/07/23/nSDZyHCFM9KbvwO.png) ![硬件解码加速：H.264&HEVC解码](https://i.loli.net/2021/07/23/cu7ZCYEIqe3sROt.png)
 1. 3.5mm声音
 1. USB：正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true。(备用USBInjectAll驱动在根目录) ![USB](https://i.loli.net/2021/06/12/1XyQrsM7m2paN4f.png)
 1. 有线网卡：正常，使用了RealtekRTL8111.kext。 ![有线网卡](https://i.loli.net/2021/06/12/29lJdKBqonkjtcp.png)
