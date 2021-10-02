@@ -11,7 +11,7 @@
 1. WiFi/蓝牙: BCM943602CS（BT4.2）
 1. 声卡: Realtek® ALC 887 8-Channel High Definition Audio
 1. 固态硬盘: 西数SN750 500GB
-
+![硬盘信息](https://i.loli.net/2021/10/02/UlzBGydZqkTjRQc.png)
 ### BIOS设置
 1. 高级-CPU设置--Intel(VMX) Virtualization Technology -enable
 1. 高级-北桥-显示设置--首选显卡-Auto，初始化IGPU-enable，DVMT Pre-Allocated-1024M，RC6-auto
