@@ -1,7 +1,7 @@
 # Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.4 macOS
 下载点击[releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.3-macOS/releases)
 
-![系统信息](https://i.loli.net/2021/08/12/cyBZNPtbaU41hAE.png)![系统信息](https://i.loli.net/2021/09/22/vAw5bK9QoJSutUC.png)
+![系统信息](https://i.loli.net/2021/08/12/cyBZNPtbaU41hAE.png)![系统信息](https://i.loli.net/2021/10/02/k7N1LO8CJUD5anv.png)
 
 ### 配置
 1. 主板: ASUS PRIME Z390-P
@@ -24,7 +24,7 @@
 
 1. OpenCore版本：0.7.4（内含主题如下图） ![主题](https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png)![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
 1. CPU变频：正常。
-1. UHD630：正常，VRAM动态，最大值：1536 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 ![显卡](https://i.loli.net/2021/07/23/nSDZyHCFM9KbvwO.png) ![硬件解码加速：H.264&HEVC解码](https://i.loli.net/2021/07/23/cu7ZCYEIqe3sROt.png)
+1. UHD630：正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 ![显卡](https://i.loli.net/2021/07/23/nSDZyHCFM9KbvwO.png) ![硬件解码加速：H.264&HEVC解码](https://i.loli.net/2021/07/23/cu7ZCYEIqe3sROt.png)
 1. 3.5mm声音
 1. USB：正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true。(备用USBInjectAll驱动在根目录) ![USB](https://i.loli.net/2021/06/12/1XyQrsM7m2paN4f.png)
 1. 有线网卡：正常，使用了RealtekRTL8111.kext。 ![有线网卡](https://i.loli.net/2021/06/12/29lJdKBqonkjtcp.png)
