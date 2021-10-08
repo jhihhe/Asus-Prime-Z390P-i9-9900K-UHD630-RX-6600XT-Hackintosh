@@ -44,4 +44,4 @@
 
 # 鸣谢 
 # 采用了igarashikenshin的README.md编辑格式，如果用双屏或者需要0.6.9版本可点击大佬链接查看
-https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_UHD630_DualScreens
+https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX6800XT
