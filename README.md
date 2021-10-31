@@ -1,7 +1,7 @@
 # Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.5 macOS
 下载点击[releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.5-macOS/releases)
 
-![系统信息](https://i.loli.net/2021/10/20/Y14Txi2UHghfpvw.png)![系统信息](https://i.loli.net/2021/08/12/cyBZNPtbaU41hAE.png)
+![系统信息](https://i.loli.net/2021/11/01/HzqgJbdnACfiR4M.png)![系统信息](https://i.loli.net/2021/08/12/cyBZNPtbaU41hAE.png)
 
 ### 配置
 1. 主板: ASUS PRIME Z390-P
@@ -20,7 +20,7 @@
 1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
 1. 设置模式-高级模式
 
-# **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6/支持macOS Monterey 12.0.1**
+# **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6/支持macOS Monterey 12.1**
 
 1. OpenCore版本：0.7.5（内含主题如下图） ![主题](https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png)![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
 1. CPU变频：正常。
