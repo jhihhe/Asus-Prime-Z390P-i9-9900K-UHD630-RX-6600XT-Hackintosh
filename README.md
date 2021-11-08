@@ -26,7 +26,7 @@
 1. CPU变频：正常。 ![CPU](https://i.loli.net/2021/11/08/eUzuisSEb8ltMRv.png)
 1. UHD630：正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 ![显卡](https://i.loli.net/2021/07/23/nSDZyHCFM9KbvwO.png) ![硬件解码加速：H.264&HEVC解码](https://i.loli.net/2021/07/23/cu7ZCYEIqe3sROt.png)
 1. 3.5mm声音
-1. USB：正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true。(备用USBInjectAll驱动在根目录) ![USB](https://i.loli.net/2021/06/12/1XyQrsM7m2paN4f.png)
+1. USB：正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true ![USB](https://i.loli.net/2021/06/12/1XyQrsM7m2paN4f.png)
 1. 有线网卡：正常，使用了RealtekRTL8111.kext。 ![有线网卡](https://i.loli.net/2021/06/12/29lJdKBqonkjtcp.png)
 1. 无线网卡：正常 ![Wi-Fi](https://i.loli.net/2021/06/12/ilADj9OuVmFsztp.png)
 1. 睡眠唤醒：正常。![睡眠](https://i.loli.net/2021/11/08/IUZ7aRvKc8Smdp2.png)
