@@ -33,7 +33,7 @@
 1. 关机开机：正常。
 1. iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。
 1. AirDrop & HandOff & Continuity：正常。
-![Wi-Fi](https://i.loli.net/2021/06/12/1UrwpiNsKfIb8g3.png)
+![Wi-Fi](https://i.loli.net/2021/11/08/snMEBHvoNfYaWIc.png)
 ![蓝牙](https://i.loli.net/2021/06/12/DJma7dLzorEniOp.png)
 
 ### Tips：
