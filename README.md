@@ -4,7 +4,7 @@
 ![系统信息](https://i.loli.net/2021/11/17/kDwFB9sq7hnTAWZ.png)![系统信息](https://i.loli.net/2021/08/12/cyBZNPtbaU41hAE.png)
 
 ### 配置
-1. 主板: ASUS PRIME Z390-P （BIOS 版本#3006 https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/）
+1. 主板: ASUS PRIME Z390-P （BIOS 版本#3006 https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/ ）
 1. CPU: Intel® Core™ i9-9900K Processor
 1. 核显: Intel® UHD Graphics 630
 1. 板载网卡: Realtek® RTL8111H Gigabit LAN Controller
