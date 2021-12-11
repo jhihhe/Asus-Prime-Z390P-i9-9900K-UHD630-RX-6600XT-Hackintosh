@@ -1,5 +1,5 @@
-# Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.6 macOS
-下载点击[releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.6-macOS/releases)
+# Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.7 macOS
+下载点击[releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.7-macOS/releases)
 
 ![系统信息](https://s2.loli.net/2021/12/08/JnfPudZWtLTpz2G.png)![系统信息](https://i.loli.net/2021/08/12/cyBZNPtbaU41hAE.png)
 
@@ -22,7 +22,7 @@
 
 # **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6.1/支持macOS Monterey 12.1**
 
-1. OpenCore版本：0.7.6（内含主题如下图） ![主题](https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png)![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
+1. OpenCore版本：0.7.7（内含主题如下图） ![主题](https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png)![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
 1. CPU变频：正常。 ![CPU](https://i.loli.net/2021/11/08/eUzuisSEb8ltMRv.png)
 1. UHD630：正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 ![显卡](https://i.loli.net/2021/07/23/nSDZyHCFM9KbvwO.png) ![硬件解码加速：H.264&HEVC解码](https://i.loli.net/2021/07/23/cu7ZCYEIqe3sROt.png)
 1. 3.5mm声音
