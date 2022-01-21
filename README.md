@@ -1,7 +1,7 @@
 # Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.8 macOS
 下载点击[releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.7-macOS/releases)
 
-![系统信息](https://s2.loli.net/2022/01/12/kgeJWr8Sqvs16tN.png)![系统信息](https://i.loli.net/2021/08/12/cyBZNPtbaU41hAE.png)
+![系统信息](https://s3.bmp.ovh/imgs/2022/01/8604cf845047d22b.png)![系统信息](https://i.loli.net/2021/08/12/cyBZNPtbaU41hAE.png)
 
 ### 配置
 1. 主板: ASUS PRIME Z390-P （BIOS Version 3006 https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/ ）
