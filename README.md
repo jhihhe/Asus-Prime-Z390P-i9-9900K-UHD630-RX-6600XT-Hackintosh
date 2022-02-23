@@ -3,7 +3,7 @@
 
 # 请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM
 
-![系统信息](https://s3.bmp.ovh/imgs/2022/02/1691bcd29a80cac3.png)![系统信息](https://i.loli.net/2021/08/12/cyBZNPtbaU41hAE.png)
+![系统信息](https://pic.imgdb.cn/item/6215b8332ab3f51d91f949a8.png)![系统信息](https://i.loli.net/2021/08/12/cyBZNPtbaU41hAE.png)
 
 ### 配置
 1. 主板: ASUS PRIME Z390-P （BIOS Version 3006 https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/ ）
@@ -22,7 +22,7 @@
 1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
 1. 设置模式-高级模式
 
-# **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6.5/支持macOS Monterey 12.3 Beta3**
+# **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6.5/支持macOS Monterey 12.3 Beta4**
 
 1. OpenCore版本：0.7.9（内含主题如下图） ![主题](https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png)![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
 1. CPU变频：正常。 ![CPU](https://i.loli.net/2021/11/08/eUzuisSEb8ltMRv.png)
