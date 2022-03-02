@@ -22,7 +22,7 @@ Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.9 macOS
 1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
 1. 设置模式-高级模式
 
-# **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6.5/支持macOS Monterey 12.3 Beta4**
+# **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6.5/支持macOS Monterey 12.3 Beta5**
 
 1. OpenCore版本：0.7.9（内含主题如下图） ![主题](https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png)![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
 1. CPU变频：正常。 ![CPU](https://tva1.sinaimg.cn/large/cec1774cly8gzplake51qj208m0hnjs2.jpg)![内存](https://tva4.sinaimg.cn/large/cec1774cly8gzpl8utlp9j208m0cf0t7.jpg)
