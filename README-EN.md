@@ -30,25 +30,25 @@
 1. OpenCore version: 0.7.9 (with themes as shown below)
 ![Theme](https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png)
 ![Theme](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
-1. CPU frequency conversion: normal.
+1. CPU frequency conversion: 🆗.
 ![CPU](https://tva1.sinaimg.cn/large/cec1774cly8gzplake51qj208m0hnjs2.jpg)
 ![Memory](https://tva4.sinaimg.cn/large/cec1774cly8gzpl8utlp9j208m0cf0t7.jpg)
-1. UHD630: normal, VRAM dynamic, maximum: 4095 MB, enable HIDPI, enable H.264&HEVC hardware decoding acceleration
+1. UHD630: 🆗, VRAM dynamic, maximum: 4095 MB, enable HIDPI, enable H.264&HEVC hardware decoding acceleration
 ![Graphics Card](https://i.loli.net/2021/07/23/nSDZyHCFM9KbvwO.png)
 ![Hardware decoding acceleration: H.264&HEVC decoding](https://i.loli.net/2021/07/23/cu7ZCYEIqe3sROt.png)
-1. 3.5mm sound
+1. 3.5mm sound：🆗
 ![Sound Card](https://tva3.sinaimg.cn/large/cec1774cly8gzplcmv726j20jk0fz74z.jpg)
-1. USB: Normal, after Big Sur 11.3 version, if the USB loading is abnormal, you need to customize the USB, or cancel the loading of USBport.kext, and change the XhciPortLimit value to true
+1. USB: 🆗（after Big Sur 11.3 version, if the USB loading is abnormal, you need to customize the USB, or cancel the loading of USBport.kext, and change the XhciPortLimit value to true）
 ![USB](https://i.loli.net/2021/06/12/1XyQrsM7m2paN4f.png)
-1. Wired network card: normal, using RealtekRTL8111.kext
+1. Wired network card: 🆗, using RealtekRTL8111.kext
 ![Wired network card](https://i.loli.net/2021/06/12/29lJdKBqonkjtcp.png)
-1. Wireless network card: normal
+1. Wireless network card: 🆗
 ![Wi-Fi](https://tva4.sinaimg.cn/large/cec1774cly8gzpl7hwe2ej208m0abmxm.jpg)
-1. Sleep wake up: normal
+1. Sleep wake up: 🆗
 ![Sleep](https://i.loli.net/2021/11/08/IUZ7aRvKc8Smdp2.png)
-1. Power off and on: normal
-1. iCloud & App Store & iMessage & FaceTime: Normal
-1. AirDrop & HandOff & Continuity: Normal.
+1. Power off and on: 🆗
+1. iCloud & App Store & iMessage & FaceTime: 🆗
+1. AirDrop & HandOff & Continuity: 🆗
 ![Bluetooth](https://i.loli.net/2021/06/12/DJma7dLzorEniOp.png)
 
 ###Tips:
