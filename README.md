@@ -3,7 +3,7 @@ Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.9 macOS
 
 # 请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM
 
-![系统信息](https://tva4.sinaimg.cn/large/cec1774cly8gznc362u4nj20ha0araam.jpg)![系统信息](https://i.loli.net/2021/08/12/cyBZNPtbaU41hAE.png)
+![系统信息](https://tva3.sinaimg.cn/large/cec1774cly8gzvg43tslwj20ha0armxp.jpg)![系统信息](https://tva2.sinaimg.cn/large/cec1774cly8gzvg3z2bl7j20lv0dkaaz.jpg)
 
 ### 配置
 1. 主板: ASUS PRIME Z390-P （BIOS Version 3006 https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/ ）
