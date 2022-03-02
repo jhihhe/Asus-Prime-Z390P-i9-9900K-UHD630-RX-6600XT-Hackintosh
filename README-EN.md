@@ -52,7 +52,6 @@
 ![Bluetooth](https://i.loli.net/2021/06/12/DJma7dLzorEniOp.png)
 
 ###Tips:
-
 1. The model needs to be set to iMAC19.1 (it is already preset, please modify it after the installation is complete).
 1. The config defaults to no verbose mode. To enable verbose mode, config.plist needs to modify the following one: NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args, add -v.
 1. The config startup disk policy ScanPolicy value is set to 0. Bootable Windows or Other OS (Linux, Unix) To specify the search partition type, please refer to the OC configuration manual.
