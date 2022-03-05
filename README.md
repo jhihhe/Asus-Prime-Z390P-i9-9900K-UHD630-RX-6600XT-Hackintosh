@@ -6,7 +6,7 @@
 
 # 请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM
 
-![系统信息](https://tva3.sinaimg.cn/large/cec1774cly8gzvg43tslwj20ha0armxp.jpg)
+![系统信息](https://tva2.sinaimg.cn/large/cec1774cly8gzz44u6h5fj20yk0liwge.jpg)
 
 ### 配置
 1. 主板: ASUS PRIME Z390-P （BIOS Version 3006 请点击这里[下载BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) ）
@@ -34,7 +34,7 @@
 ![CPU](https://tva1.sinaimg.cn/large/cec1774cly8gzplake51qj208m0hnjs2.jpg)
 ![内存](https://tva4.sinaimg.cn/large/cec1774cly8gzpl8utlp9j208m0cf0t7.jpg)
 1. UHD630：正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 
-![显卡](https://i.loli.net/2021/07/23/nSDZyHCFM9KbvwO.png) 
+![显卡](https://tva1.sinaimg.cn/large/cec1774cly8gzz44snmwfj21860u0whd.jpg) 
 ![硬件解码加速：H.264&HEVC解码](https://i.loli.net/2021/07/23/cu7ZCYEIqe3sROt.png)
 1. 3.5mm声音
 ![声卡](https://tva3.sinaimg.cn/large/cec1774cly8gzplcmv726j20jk0fz74z.jpg)
