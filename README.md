@@ -35,7 +35,7 @@
 ![内存](https://tva4.sinaimg.cn/large/cec1774cly8gzpl8utlp9j208m0cf0t7.jpg)
 1. UHD630：正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 
 ![显卡](https://tva1.sinaimg.cn/large/cec1774cly8gzz44snmwfj21860u0whd.jpg) 
-![硬件解码加速：H.264&HEVC解码](https://i.loli.net/2021/07/23/cu7ZCYEIqe3sROt.png)
+![硬件解码加速：H.264&HEVC解码](https://tva3.sinaimg.cn/large/cec1774cly8gzz45wjjlrj21880u0tc6.jpg)
 1. 3.5mm声音
 ![声卡](https://tva3.sinaimg.cn/large/cec1774cly8gzplcmv726j20jk0fz74z.jpg)
 1. USB：正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true 
