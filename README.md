@@ -6,7 +6,7 @@
 
 # 请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM
 
-![系统信息](https://tva2.sinaimg.cn/large/cec1774cly8gzz44u6h5fj20yk0liwge.jpg)
+![系统信息](https://tva1.sinaimg.cn/large/cec1774cly8h02ktqf6n1j20yk0lidhq.jpg)
 
 ### 配置
 1. 主板: ASUS PRIME Z390-P （BIOS Version 3006 请点击这里[下载BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) ）
