@@ -17,7 +17,7 @@
 1. WiFi/蓝牙: BCM943602CS（BT4.2）
 1. 声卡: Realtek® ALC 887 8-Channel High Definition Audio
 1. 固态硬盘: 西数SN750 500GB
-![硬盘信息](https://i.loli.net/2021/10/02/UlzBGydZqkTjRQc.png)
+![硬盘信息](https://tva1.sinaimg.cn/large/cec1774cly8h02l03yyq9j21860u0ae3.jpg)
 
 ### BIOS设置
 1. 高级-CPU设置--Intel(VMX) Virtualization Technology -enable
@@ -33,24 +33,24 @@
 ![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
 1. CPU变频：正常。 
 ![CPU](https://tva1.sinaimg.cn/large/cec1774cly8gzplake51qj208m0hnjs2.jpg)
-![内存](https://tva4.sinaimg.cn/large/cec1774cly8gzpl8utlp9j208m0cf0t7.jpg)
+![内存](https://tva2.sinaimg.cn/large/cec1774cly8h02l3ltb6tj21860u0q6j.jpg)
 1. UHD630：正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 
-![显卡](https://tva1.sinaimg.cn/large/cec1774cly8gzz44snmwfj21860u0whd.jpg) 
+![显卡](https://tva3.sinaimg.cn/large/cec1774cly8h02kyt7wtaj21860u0q62.jpg) 
 ![硬件解码加速：H.264&HEVC解码](https://tva3.sinaimg.cn/large/cec1774cly8gzz45wjjlrj21880u0tc6.jpg)
 1. 3.5mm声音
-![声卡](https://tva3.sinaimg.cn/large/cec1774cly8gzplcmv726j20jk0fz74z.jpg)
+![声卡](https://tva2.sinaimg.cn/large/cec1774cly8h02l3k77ozj21860u0ad8.jpg)
 1. USB：正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true 
-![USB](https://i.loli.net/2021/06/12/1XyQrsM7m2paN4f.png)
+![USB](https://tva2.sinaimg.cn/large/cec1774cly8h02l3obe9aj21860u0tcc.jpg)
 1. 有线网卡：正常，使用了RealtekRTL8111.kext 
-![有线网卡](https://i.loli.net/2021/06/12/29lJdKBqonkjtcp.png)
+![有线网卡](https://tva3.sinaimg.cn/large/cec1774cly8h02l3es8a9j21860u0q5l.jpg)
 1. 无线网卡：正常 
-![Wi-Fi](https://tva4.sinaimg.cn/large/cec1774cly8gzpl7hwe2ej208m0abmxm.jpg)
+![Wi-Fi](https://tva1.sinaimg.cn/large/cec1774cly8h02l3scsepj21860u0n1j.jpg)
 1. 睡眠唤醒：正常 
-![睡眠](https://i.loli.net/2021/11/08/IUZ7aRvKc8Smdp2.png)
+![睡眠](https://tva3.sinaimg.cn/large/cec1774cly8h02l5ioja1j212p0u0di8.jpg)
 1. 关机开机：正常
 1. iCloud & App Store & iMessage & FaceTime：正常
 1. AirDrop & HandOff & Continuity：正常。
-![蓝牙](https://i.loli.net/2021/06/12/DJma7dLzorEniOp.png)
+![蓝牙](https://tva2.sinaimg.cn/large/cec1774cly8h02l3i58prj21860u00wc.jpg)
 
 ### Tips：
 
