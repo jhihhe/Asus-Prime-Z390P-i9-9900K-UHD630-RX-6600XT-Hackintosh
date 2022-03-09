@@ -6,7 +6,8 @@
 
 # 请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM
 
-![系统信息](https://tva1.sinaimg.cn/large/cec1774cly8h02ktqf6n1j20yk0lidhq.jpg)
+![系统信息](https://pic.imgdb.cn/item/62280c8b5baa1a80abdecc00.png)
+![系统信息2](https://pic.imgdb.cn/item/62280c8b5baa1a80abdecc03.png)
 
 ### 配置
 1. 主板: ASUS PRIME Z390-P （BIOS Version 3006 请点击这里[下载BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) ）
@@ -17,7 +18,7 @@
 1. WiFi/蓝牙: BCM943602CS（BT4.2）
 1. 声卡: Realtek® ALC 887 8-Channel High Definition Audio
 1. 固态硬盘: 西数SN750 500GB
-![硬盘信息](https://tva1.sinaimg.cn/large/cec1774cly8h02l03yyq9j21860u0ae3.jpg)
+![硬盘信息](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1e3.png)
 
 ### BIOS设置
 1. 高级-CPU设置--Intel(VMX) Virtualization Technology -enable
@@ -32,25 +33,26 @@
 ![主题](https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png)
 ![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
 1. CPU变频：正常。 
-![CPU](https://tva1.sinaimg.cn/large/cec1774cly8gzplake51qj208m0hnjs2.jpg)
-![内存](https://tva2.sinaimg.cn/large/cec1774cly8h02l3ltb6tj21860u0q6j.jpg)
+![CPU](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1e0.png)
+![内存](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa66b.png)
 1. UHD630：正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 
-![显卡](https://tva3.sinaimg.cn/large/cec1774cly8h02kyt7wtaj21860u0q62.jpg) 
+![显卡](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa670.png) 
 ![硬件解码加速：H.264&HEVC解码](https://tva3.sinaimg.cn/large/cec1774cly8gzz45wjjlrj21880u0tc6.jpg)
 1. 3.5mm声音
-![声卡](https://tva2.sinaimg.cn/large/cec1774cly8h02l3k77ozj21860u0ad8.jpg)
+![声卡](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa691.png)
 1. USB：正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true 
-![USB](https://tva2.sinaimg.cn/large/cec1774cly8h02l3obe9aj21860u0tcc.jpg)
+![USB](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1ee.png)
 1. 有线网卡：正常，使用了RealtekRTL8111.kext 
-![有线网卡](https://tva3.sinaimg.cn/large/cec1774cly8h02l3es8a9j21860u0q5l.jpg)
+![有线网卡](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1f6.png)
 1. 无线网卡：正常 
-![Wi-Fi](https://tva1.sinaimg.cn/large/cec1774cly8h02l3scsepj21860u0n1j.jpg)
+![Wi-Fi](https://pic.imgdb.cn/item/62280dd25baa1a80abdfa953.png)
 1. 睡眠唤醒：正常 
+![睡眠2](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa67a.png)
 ![睡眠](https://tva3.sinaimg.cn/large/cec1774cly8h02l5ioja1j212p0u0di8.jpg)
 1. 关机开机：正常
 1. iCloud & App Store & iMessage & FaceTime：正常
 1. AirDrop & HandOff & Continuity：正常。
-![蓝牙](https://tva2.sinaimg.cn/large/cec1774cly8h02l3i58prj21860u00wc.jpg)
+![蓝牙](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa682.png)
 
 ### Tips：
 
