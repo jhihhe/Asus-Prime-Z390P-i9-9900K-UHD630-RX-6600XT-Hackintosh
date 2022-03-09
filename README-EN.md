@@ -6,7 +6,7 @@
 
 # Please generate the Board Serial Number, serial number, SmUUID by yourself, and modify the "custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
 
-![System Information](https://pic.imgdb.cn/item/62280c8b5baa1a80abdecc00.png)
+![System Information](https://tva3.sinaimg.cn/large/cec1774cly8h03ta9puwaj20yk0li40d.jpg)
 ![System Information 2](https://pic.imgdb.cn/item/62280c8b5baa1a80abdecc03.png)
 
 ### Configuration
