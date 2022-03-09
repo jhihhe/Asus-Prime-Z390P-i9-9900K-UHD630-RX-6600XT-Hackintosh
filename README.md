@@ -7,7 +7,7 @@
 # 请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM
 
 ![系统信息](https://tva3.sinaimg.cn/large/cec1774cly8h03ta9puwaj20yk0li40d.jpg)
-
+![System Information 2](https://pic.imgdb.cn/item/62280c8b5baa1a80abdecc03.png)
 ### 配置
 1. 主板: ASUS PRIME Z390-P （BIOS Version 3006 请点击这里[下载BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) ）
 1. CPU: Intel® Core™ i9-9900K Processor
