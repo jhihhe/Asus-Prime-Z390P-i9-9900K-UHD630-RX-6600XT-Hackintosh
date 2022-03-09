@@ -6,7 +6,8 @@
 
 # Please generate the Board Serial Number, serial number, SmUUID by yourself, and modify the "custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
 
-![System Information](https://tva1.sinaimg.cn/large/cec1774cly8h02ktqf6n1j20yk0lidhq.jpg)
+![System Information](https://pic.imgdb.cn/item/62280c8b5baa1a80abdecc00.png)
+![System Information 2](https://pic.imgdb.cn/item/62280c8b5baa1a80abdecc03.png)
 
 ### Configuration
 1. Motherboard: ASUS PRIME Z390-P (BIOS Version 3006 please click here [Download BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) )
@@ -17,7 +18,7 @@
 1. WiFi/Bluetooth: BCM943602CS (BT4.2)
 1. Sound Card: Realtek® ALC 887 8-Channel High Definition Audio
 1. Solid State Drive: Western Digital SN750 500GB
-![HDD Information](https://tva1.sinaimg.cn/large/cec1774cly8h02l03yyq9j21860u0ae3.jpg)
+![HDD Information](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1e3.png)
 
 ### BIOS settings
 1. Advanced-CPU Settings--Intel(VMX) Virtualization Technology-enable
@@ -32,27 +33,28 @@
 ![Theme](https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png)
 ![Theme](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
 1. CPU frequency conversion: normal.
-![CPU](https://tva1.sinaimg.cn/large/cec1774cly8gzplake51qj208m0hnjs2.jpg)
-![Memory](https://tva2.sinaimg.cn/large/cec1774cly8h02l3ltb6tj21860u0q6j.jpg)
+![CPU](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1e0.png)
+![Memory](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa66b.png)
 1. UHD630: normal, VRAM dynamic, maximum: 4095 MB, enable HIDPI, enable H.264&HEVC hardware decoding acceleration
-![Graphics Card](https://tva3.sinaimg.cn/large/cec1774cly8h02kyt7wtaj21860u0q62.jpg)
+![Graphics Card](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa670.png)
 ![Hardware decoding acceleration: H.264&HEVC decoding](https://tva3.sinaimg.cn/large/cec1774cly8gzz45wjjlrj21880u0tc6.jpg)
 1. 3.5mm sound
-![Sound Card](https://tva2.sinaimg.cn/large/cec1774cly8h02l3k77ozj21860u0ad8.jpg)
+![Sound Card](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa691.png)
 1. USB: Normal, after Big Sur 11.3 version, if the USB loading is abnormal, you need to customize the USB, or cancel the loading of USBport.kext, and change the XhciPortLimit value to true
-![USB](https://tva2.sinaimg.cn/large/cec1774cly8h02l3obe9aj21860u0tcc.jpg)
+![USB](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1ee.png)
 1. Wired network card: normal, using RealtekRTL8111.kext
-![Wired network card](https://tva3.sinaimg.cn/large/cec1774cly8h02l3es8a9j21860u0q5l.jpg)
+![Wired network card](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1f6.png)
 1. Wireless network card: normal
-![Wi-Fi](https://tva1.sinaimg.cn/large/cec1774cly8h02l3scsepj21860u0n1j.jpg)
+![Wi-Fi](https://pic.imgdb.cn/item/62280dd25baa1a80abdfa953.png)
 1. Sleep wake up: normal
+![Sleep 2](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa67a.png)
 ![Sleep](https://tva3.sinaimg.cn/large/cec1774cly8h02l5ioja1j212p0u0di8.jpg)
 1. Power off and on: normal
 1. iCloud & App Store & iMessage & FaceTime: Normal
 1. AirDrop & HandOff & Continuity: Normal.
-![Bluetooth](https://tva2.sinaimg.cn/large/cec1774cly8h02l3i58prj21860u00wc.jpg)
+![Bluetooth](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa682.png)
 
-###Tips:
+### Tips:
 
 1. The model needs to be set to iMAC19.1 (it is already preset, please modify it after the installation is complete).
 1. The config defaults to no verbose mode. To enable verbose mode, config.plist needs to modify the following one: NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args, add -v.
