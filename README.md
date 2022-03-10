@@ -40,16 +40,16 @@
 ![硬件解码加速：H.264&HEVC解码](https://tva3.sinaimg.cn/large/cec1774cly8gzz45wjjlrj21880u0tc6.jpg)
 1. 3.5mm声音：工作正常
 ![声卡](https://tva3.sinaimg.cn/large/cec1774cly8h057stfz6fj21860u0gov.jpg)
-1. USB：正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true 
+1. USB：工作正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true 
 ![USB](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1ee.png)
-1. 有线网卡：正常，使用了RealtekRTL8111.kext 
+1. 有线网卡：工作正常，使用了RealtekRTL8111.kext 
 ![有线网卡](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1f6.png)
-1. 无线网卡：正常 
+1. 无线网卡：工作正常 
 ![Wi-Fi](https://pic.imgdb.cn/item/62280dd25baa1a80abdfa953.png)
-1. 睡眠唤醒：正常 
+1. 睡眠唤醒：工作正常 
 ![睡眠2](https://tva2.sinaimg.cn/large/cec1774cly8h057snf0lzj21860u0wh5.jpg)
-![睡眠](https://tva3.sinaimg.cn/large/cec1774cly8h02l5ioja1j212p0u0di8.jpg)
-1. 关机开机：正常
+![睡眠](https://tva1.sinaimg.cn/large/cec1774cly8h057wpxhe1j212p0u0410.jpg)
+1. 关机开机：工作正常
 1. iCloud & App Store & iMessage & FaceTime：正常
 1. AirDrop & HandOff & Continuity：正常。
 ![蓝牙](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa682.png)
