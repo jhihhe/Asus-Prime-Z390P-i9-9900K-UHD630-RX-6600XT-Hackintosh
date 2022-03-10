@@ -35,7 +35,8 @@
 ![CPU](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1e0.png)
 ![内存](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa66b.png)
 1. UHD630：正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 
-![显卡](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa670.png) 
+![显卡](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa670.png)
+![显卡2](https://pic.imgdb.cn/item/622a1a4d5baa1a80ab52bc8b.png)
 ![硬件解码加速：H.264&HEVC解码](https://tva3.sinaimg.cn/large/cec1774cly8gzz45wjjlrj21880u0tc6.jpg)
 1. 3.5mm声音
 ![声卡](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa691.png)
