@@ -1,8 +1,8 @@
-# *Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630&6600XT-EFI_OpenCore-0.7.9 macOS*
+# *Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630&6600XT-EFI_OpenCore-0.8.0 macOS*
 
-# [中文](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.9-macOS/blob/main/README.md)｜[English](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.7.9-macOS/blob/main/README-EN.md)
+# [中文](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.8.0-macOS/blob/main/README.md)｜[English](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-EFI_OpenCore-0.8.0-macOS/blob/main/README-EN.md)
 
-# 下载点击[releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.7.9-macOS/releases)
+# 下载点击[releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.0-macOS/releases)
 
 # 请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM
 
@@ -28,7 +28,7 @@
 1. 设置模式-高级模式
 
 # **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6.5/支持macOS Monterey 12.3 RC1**
-1. OpenCore版本：0.7.9（内含主题如下图） 
+1. OpenCore版本：0.8.0（内含主题如下图） 
 ![主题](https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png)
 ![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
 1. CPU变频：正常。 
