@@ -16,7 +16,7 @@
 1. 板载网卡: Realtek® RTL8111H Gigabit LAN Controller
 1. WiFi/蓝牙: BCM943602CS（BT4.2）
 1. 声卡: Realtek® ALC 887 8-Channel High Definition Audio
-1. 固态硬盘: 西数SN750 500GB
+1. 固态硬盘: 西数SN750 500GB（开启TRIM）
 ![硬盘信息](https://tva1.sinaimg.cn/large/cec1774cly8h057sy9inrj21860u0tcy.jpg)
 
 ### BIOS设置
