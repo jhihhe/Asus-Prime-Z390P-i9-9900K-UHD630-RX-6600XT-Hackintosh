@@ -17,7 +17,7 @@
 1. WiFi/蓝牙: BCM943602CS（BT4.2）
 1. 声卡: Realtek® ALC 887 8-Channel High Definition Audio
 1. 固态硬盘: 西数SN750 500GB
-![硬盘信息](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1e3.png)
+![硬盘信息](https://tva1.sinaimg.cn/large/cec1774cly8h057sy9inrj21860u0tcy.jpg)
 
 ### BIOS设置
 1. 高级-CPU设置--Intel(VMX) Virtualization Technology -enable
@@ -31,15 +31,15 @@
 1. OpenCore版本：0.8.0（内含主题如下图） 
 ![主题](https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png)
 ![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
-1. CPU变频：正常。 
-![CPU](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1e0.png)
-![内存](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa66b.png)
-1. UHD630：正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 
-![显卡](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa670.png)
-![显卡2](https://pic.imgdb.cn/item/622a1a4d5baa1a80ab52bc8b.png)
+1. CPU变频：工作正常。 
+![CPU](https://tva4.sinaimg.cn/large/cec1774cly8h057spanbgj21860u0dio.jpg)
+![内存](https://tva2.sinaimg.cn/large/cec1774cly8h057svhmylj21860u0n0u.jpg)
+1. UHD630：工作正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速 
+![显卡](https://tva1.sinaimg.cn/large/cec1774cly8h057srbj3nj21860u0tc0.jpg)
+![显卡2](https://tva1.sinaimg.cn/large/cec1774cly8h057n6odtqj20lq0tgq5h.jpg)
 ![硬件解码加速：H.264&HEVC解码](https://tva3.sinaimg.cn/large/cec1774cly8gzz45wjjlrj21880u0tc6.jpg)
-1. 3.5mm声音
-![声卡](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa691.png)
+1. 3.5mm声音：工作正常
+![声卡](https://tva3.sinaimg.cn/large/cec1774cly8h057stfz6fj21860u0gov.jpg)
 1. USB：正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true 
 ![USB](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1ee.png)
 1. 有线网卡：正常，使用了RealtekRTL8111.kext 
@@ -47,7 +47,7 @@
 1. 无线网卡：正常 
 ![Wi-Fi](https://pic.imgdb.cn/item/62280dd25baa1a80abdfa953.png)
 1. 睡眠唤醒：正常 
-![睡眠2](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa67a.png)
+![睡眠2](https://tva2.sinaimg.cn/large/cec1774cly8h057snf0lzj21860u0wh5.jpg)
 ![睡眠](https://tva3.sinaimg.cn/large/cec1774cly8h02l5ioja1j212p0u0di8.jpg)
 1. 关机开机：正常
 1. iCloud & App Store & iMessage & FaceTime：正常
