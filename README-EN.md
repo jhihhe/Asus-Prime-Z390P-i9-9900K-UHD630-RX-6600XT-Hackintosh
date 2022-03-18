@@ -6,7 +6,7 @@
 
 # Please generate the Board Serial Number, serial number, SmUUID by yourself, and modify the "custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
 
-![System Information](https://tva3.sinaimg.cn/large/cec1774cly8h03ta9puwaj20yk0li40d.jpg)
+![System Information](https://pic.imgdb.cn/item/623451515baa1a80ab1e5782.png)
 ![System Information 2](https://pic.imgdb.cn/item/62280c8b5baa1a80abdecc03.png)
 ### Configuration
 1. Motherboard: ASUS PRIME Z390-P (BIOS Version 3006 please click here [Download BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) )
