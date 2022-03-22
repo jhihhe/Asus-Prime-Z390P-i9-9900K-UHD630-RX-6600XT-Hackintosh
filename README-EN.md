@@ -3,7 +3,7 @@
 # [Chinese](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.0-macOS/blob/main/README.md)｜[English](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.0-macOS/blob/main/README-EN.md)
 
 # Download click [releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.0-macOS/releases)
-
+Please download the IGPU version or the version with the version number less than 220305 if you only use the nuclear display
 # Please generate the Board Serial Number, serial number, SmUUID by yourself, and modify the "custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
 
 ![System Information](https://pic.imgdb.cn/item/623451515baa1a80ab1e5782.png)
@@ -11,7 +11,7 @@
 ### Configuration
 1. Motherboard: ASUS PRIME Z390-P (BIOS Version 3006 please click here [Download BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) )
 1. CPU: Intel® Core™ i9-9900K Processor
-1. Core Graphics: Intel® UHD Graphics 630 (For core graphics only, please download the version with the smaller version number and 220305)
+1. Core Graphics: Intel® UHD Graphics 630 (Please download the IGPU version or the version with the version number less than 220305 if you only use the nuclear display)
 1. Graphics Card: AMD Radeon RX 6600 XT
 1. Onboard LAN: Realtek® RTL8111H Gigabit LAN Controller
 1. WiFi/Bluetooth: BCM943602CS (BT4.2)
