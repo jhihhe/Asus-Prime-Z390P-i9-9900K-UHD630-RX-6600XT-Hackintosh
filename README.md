@@ -11,7 +11,7 @@
 ### 配置
 1. 主板: ASUS PRIME Z390-P （BIOS Version 3006 请点击这里[下载BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) ）
 1. CPU: Intel® Core™ i9-9900K Processor
-1. 核显: Intel® UHD Graphics 630(仅使用核显请下载版本号小与220305的版本)
+1. 核显: Intel® UHD Graphics 630(仅使用核显请下载IGPU版本或版本号小于220305的版本)
 1. 显卡: AMD Radeon RX 6600 XT
 1. 板载网卡: Realtek® RTL8111H Gigabit LAN Controller
 1. WiFi/蓝牙: BCM943602CS（BT4.2）
