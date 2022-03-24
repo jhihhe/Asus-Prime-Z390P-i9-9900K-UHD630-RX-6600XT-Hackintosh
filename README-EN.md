@@ -3,7 +3,7 @@
 # [Chinese](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.0-macOS/blob/main/README.md)｜[English](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.0-macOS/blob/main/README-EN.md)
 
 # Download click [releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.0-macOS/releases)
-Please download the IGPU version or the version with the version number less than 220305 if you only use the nuclear display
+Please download the IGPU version or the version with the version number less than 220305 if you only use the 630 display
 # Please generate the Board Serial Number, serial number, SmUUID by yourself, and modify the "custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
 
 ![System Information](https://pic.imgdb.cn/item/623451515baa1a80ab1e5782.png)
