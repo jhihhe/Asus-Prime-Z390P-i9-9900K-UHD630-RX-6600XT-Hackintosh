@@ -27,7 +27,7 @@ Please download the IGPU version or the version with the version number less tha
 1. Start - Startup Settings - Quick Start - disable, if an error occurs, wait for pressing the F1 key - disable
 1. Setup Mode - Advanced Mode
 
-# **Applicable OS version: macOS Catalina 10.15.1～Big Sur 11.6.5/support macOS Monterey 12.3**
+# **Applicable OS version: macOS Catalina 10.15.1～Big Sur 11.6.5/support macOS Monterey 12.3.1**
 1. OpenCore version: 0.8.0 (with themes as shown below)
 ![Theme](https://i.loli.net/2021/09/11/t4FBZPeHkwdufiG.png)
 ![Theme](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
