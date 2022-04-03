@@ -6,8 +6,8 @@
 仅使用核显请下载IGPU版本或版本号小于220305的版本
 # 请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM
 
-![系统信息](https://pic.imgdb.cn/item/623451515baa1a80ab1e5782.png)
-![System Information 2](https://pic.imgdb.cn/item/623453995baa1a80ab205c96.png)
+![系统信息](https://tva2.sinaimg.cn/large/cec1774cly8h0wo6wnkaaj20yk0li0ui.jpg)
+
 ### 配置
 1. 主板: ASUS PRIME Z390-P （BIOS Version 3006 请点击这里[下载BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) ）
 1. CPU: Intel® Core™ i9-9900K Processor
