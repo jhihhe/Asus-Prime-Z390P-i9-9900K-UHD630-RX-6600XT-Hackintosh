@@ -6,7 +6,7 @@
 Please download the IGPU version or the version with the version number less than 220305 if you only use the 630 display
 # Please generate the Board Serial Number, serial number, SmUUID by yourself, and modify the "custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
 
-![System Information](https://tva2.sinaimg.cn/large/cec1774cly8h0wo6wnkaaj20yk0li0ui.jpg)
+![System Information](https://tva4.sinaimg.cn/large/cec1774cly8h1f0go0ochj20yk0li40e.jpg)
 
 ### Configuration
 1. Motherboard: ASUS PRIME Z390-P (BIOS Version 3006 please click here [Download BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) )
