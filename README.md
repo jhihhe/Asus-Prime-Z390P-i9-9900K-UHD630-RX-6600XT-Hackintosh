@@ -35,7 +35,7 @@
 ![CPU](https://tva4.sinaimg.cn/large/cec1774cly8h057spanbgj21860u0dio.jpg)
 ![内存](https://tva2.sinaimg.cn/large/cec1774cly8h057svhmylj21860u0n0u.jpg)
 1. UHD630：工作正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速，RX6600XT：工作正常，增加独显AAPL,slot-name参数，加入RadeonSensor.kext&SMCRadeonGPU.kext，以正常显示独立显卡温度
-![显卡](https://tva1.sinaimg.cn/large/cec1774cly8h057srbj3nj21860u0tc0.jpg)
+![显卡](https://tva4.sinaimg.cn/large/cec1774cly8h1xkrsg9spj21eg0u00vz.jpg)
 ![显卡2](https://tva2.sinaimg.cn/large/cec1774cly8h1xkmoixcpj20lq0tg0uz.jpg)
 ![硬件解码加速：H.264&HEVC解码](https://tva3.sinaimg.cn/large/cec1774cly8h1xkojr9ugj21880u0421.jpg)
 1. 3.5mm声音：工作正常
