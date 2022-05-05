@@ -8,20 +8,10 @@
 
 ![系统信息](https://tva2.sinaimg.cn/large/cec1774cly8h1xkftw48gj20yk0li0ul.jpg)
 
-### 配置
-| Index | Name              | Model                                                                   |
-|-------|-------------------|-------------------------------------------------------------------------|
-| 1     | CPU               | [i7-8700K](https://item.jd.com/18794427126.html)                        |
-| 2     | CPU Cooler        | [noctua NH-D15S](https://item.jd.com/2248429.html)                      |
-| 3     | Motherboard       | [ROG Maximus XI Hero Wi-Fi M11H ](https://item.jd.com/35017810977.html) |
-| 4     | RAM               | [Kingston Fury DDR4 3200 16GBx2](https://item.jd.com/100005089420.html) |
-| 5     | Solid State Drive | [SAMSUNG 970 EVO Plus 512G](https://item.jd.com/100003181110.html)      |
-| 6     | Power Supply      | [USCORSAIR RM550x](https://item.jd.com/6757757.html)                    |
-| 7     | Case              | [JONSBO U5 ATX](https://item.jd.com/8885801.html)                       |
-| 8     | Monitor           | [DELL 2718QM](https://item.jd.com/4585499.html)                         |
-| 9     | Network Card      | [BCM943602CS](https://item.taobao.com/item.htm?id=608922155647)         |
+## 配置
 1. 主板: ASUS PRIME Z390-P （BIOS Version 3006 请点击这里[下载BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) ）
 1. CPU: Intel® Core™ i9-9900K Processor
+1. CPU 散热：THERMALRIGHT Frost Commander 140 BLACK
 1. 核显: Intel® UHD Graphics 630(仅使用核显请下载IGPU版本或版本号小于220305的版本)
 1. 显卡: AMD Radeon RX 6600 XT
 1. 板载网卡: Realtek® RTL8111H Gigabit LAN Controller
