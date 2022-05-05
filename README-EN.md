@@ -37,7 +37,7 @@ Please download the IGPU version or the version with the version number less tha
 1. UHD630: works fine, VRAM is dynamic, maximum value: 4095 MB, HIDPI is enabled, H.264&HEVC hardware decoding acceleration is enabled, RX6600XT: works fine, increase the independent display AAPL, slot-name parameters, add RadeonSensor.kext&SMCRadeonGPU.kext, to Normal display of discrete graphics card temperature
 ![Graphics Card](https://tva1.sinaimg.cn/large/cec1774cly8h057srbj3nj21860u0tc0.jpg)
 ![Graphics card 2](https://tva2.sinaimg.cn/large/cec1774cly8h1xkmoixcpj20lq0tg0uz.jpg)
-![Hardware decoding acceleration: H.264&HEVC decoding](https://tva3.sinaimg.cn/large/cec1774cly8gzz45wjjlrj21880u0tc6.jpg)
+![Hardware decoding acceleration: H.264&HEVC decoding](https://tva3.sinaimg.cn/large/cec1774cly8h1xkojr9ugj21880u0421.jpg)
 1. 3.5mm sound: works fine
 ![Sound Card](https://tva3.sinaimg.cn/large/cec1774cly8h057stfz6fj21860u0gov.jpg)
 1. USB: works fine. After Big Sur version 11.3, if the USB is not loaded properly, you need to customize the USB, or cancel the loading of USBport.kext, and change the XhciPortLimit value to true
