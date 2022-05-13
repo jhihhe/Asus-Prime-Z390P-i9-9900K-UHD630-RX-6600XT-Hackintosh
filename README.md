@@ -36,24 +36,24 @@
 - [x] 1. CPU变频：工作正常。 
 ![CPU](https://tva4.sinaimg.cn/large/cec1774cly8h057spanbgj21860u0dio.jpg)
 ![内存](https://tva2.sinaimg.cn/large/cec1774cly8h057svhmylj21860u0n0u.jpg)
-- [x] 1. UHD630：工作正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速，RX6600XT：工作正常，增加独显AAPL,slot-name参数，加入RadeonSensor.kext&SMCRadeonGPU.kext，以正常显示独立显卡温度
+- [x] 2. UHD630：工作正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速，RX6600XT：工作正常，增加独显AAPL,slot-name参数，加入RadeonSensor.kext&SMCRadeonGPU.kext，以正常显示独立显卡温度
 ![显卡](https://tva4.sinaimg.cn/large/cec1774cly8h1xkrsg9spj21eg0u00vz.jpg)
 ![显卡2](https://tva2.sinaimg.cn/large/cec1774cly8h1xkmoixcpj20lq0tg0uz.jpg)
 ![硬件解码加速：H.264&HEVC解码](https://tva3.sinaimg.cn/large/cec1774cly8h1xkojr9ugj21880u0421.jpg)
-- [x] 1. 3.5mm声音：工作正常
+- [x] 3. 3.5mm声音：工作正常
 ![声卡](https://tva3.sinaimg.cn/large/cec1774cly8h057stfz6fj21860u0gov.jpg)
-- [x] 1. USB：工作正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true 
+- [x] 4. USB：工作正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true 
 ![USB](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1ee.png)
-- [x] 1. 有线网卡：工作正常，使用了RealtekRTL8111.kext 
+- [x] 5. 有线网卡：工作正常，使用了RealtekRTL8111.kext 
 ![有线网卡](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1f6.png)
-- [x] 1. 无线网卡：工作正常 
+- [x] 6. 无线网卡：工作正常 
 ![Wi-Fi](https://pic.imgdb.cn/item/62280dd25baa1a80abdfa953.png)
-- [x] 1. 睡眠唤醒：工作正常 
+- [x] 7. 睡眠唤醒：工作正常 
 ![睡眠2](https://tva2.sinaimg.cn/large/cec1774cly8h057snf0lzj21860u0wh5.jpg)
 ![睡眠](https://tva1.sinaimg.cn/large/cec1774cly8h057wpxhe1j212p0u0410.jpg)
-- [x] 1. 关机开机：工作正常
-- [x] 1. iCloud & App Store & iMessage & FaceTime：正常
-- [x] 1. AirDrop & HandOff & Continuity：正常。
+- [x] 8. 关机开机：工作正常
+- [x] 9. iCloud & App Store & iMessage & FaceTime：正常
+- [x] 10. AirDrop & HandOff & Continuity：正常。
 ![蓝牙](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa682.png)
 
 ### Tips：
