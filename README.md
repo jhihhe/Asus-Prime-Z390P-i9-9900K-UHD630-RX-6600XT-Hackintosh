@@ -9,7 +9,7 @@
 ![系统信息](https://static01.imgkr.com/temp/0afe2bbe865d4788bc42c6afc025f601.png)
 ![系统信息2](https://tva2.sinaimg.cn/large/cec1774cly8h274zgu9rsj20te0hi42o.jpg)
 
-更新日志：
+## 更新日志：
 - [x] 1. 更新 oc 版本到0.8.1/0513编译版
 - [x] 2. 更新所有kext内核拓展驱动到最新版本
 - [x] 3. 添加hfsplus.efi以支持u盘安装
