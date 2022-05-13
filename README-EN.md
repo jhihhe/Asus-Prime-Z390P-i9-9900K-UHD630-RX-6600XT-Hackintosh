@@ -9,6 +9,15 @@ Please download the IGPU version or the version with the version number less tha
 ![系统信息](https://static01.imgkr.com/temp/0afe2bbe865d4788bc42c6afc025f601.png)
 ![系统信息2](https://tva2.sinaimg.cn/large/cec1774cly8h274zgu9rsj20te0hi42o.jpg)
 
+
+macOS Catalina 10.15.1～Big Sur 11.6.6/Support macOS Monterey 12.4 RC1
+Changelogs：
+- [x] 1. Update oc version to 0.8.1/0513 compiled version
+- [x] 2. Update all kext kernel extension drivers to the latest version
+- [x] 3. Add hfsplus.efi to support USB flash disk installation 
+- [x] 4. Add any AMD graphics card support version, theoretically support 5x0, 5x00, 6x00 graphics cards
+## If you use the Core display card UHD630 only, please download the IGPU version
+
 ### Configuration
 1. Motherboard: ASUS PRIME Z390-P (BIOS Version 3006 please click here [Download BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) )
 1. CPU: Intel® Core™ i9-9900K Processor
