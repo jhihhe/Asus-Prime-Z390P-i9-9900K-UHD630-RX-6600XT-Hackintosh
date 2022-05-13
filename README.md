@@ -8,6 +8,25 @@
 
 ![系统信息](https://tva2.sinaimg.cn/large/cec1774cly8h1xkftw48gj20yk0li0ul.jpg)
 
+'c.          root@iMac.local 
+                 ,xNMM.          --------------- 
+               .OMMMMo           OS: macOS 12.4 21F79 x86_64 
+               OMMM0,            Host: Hackintosh (SMBIOS: iMac19,1) 
+     .;loddo:' loolloddol;.      Kernel: 21.5.0 
+   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 5 hours, 2 mins 
+ .KMMMMMMMMMMMMMMMMMMMMMMMWd.    Packages: 3 (brew) 
+ XMMMMMMMMMMMMMMMMMMMMMMMX.      Shell: sh 
+;MMMMMMMMMMMMMMMMMMMMMMMM:       Resolution: 2560x1440@2x 
+:MMMMMMMMMMMMMMMMMMMMMMMM:       DE: Aqua 
+.MMMMMMMMMMMMMMMMMMMMMMMMX.      WM: Quartz Compositor 
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.    WM Theme: Blue (Dark) 
+ .XMMMMMMMMMMMMMMMMMMMMMMMMMMk   Terminal: /dev/ttys000 
+  .XMMMMMMMMMMMMMMMMMMMMMMMMK.   CPU: Intel i9-9900K (16) @ 3.60GHz 
+    kMMMMMMMMMMMMMMMMMMMMMMd     GPU: AMD Radeon Pro W6600X 
+     ;KMMMMMMMWXXWMMMMMMMk.      Memory: 17133MiB / 32768MiB 
+       .cooc,.    .,coo:.
+
+
 ## 配置
 1. 主板: ASUS PRIME Z390-P （BIOS Version 3006 请点击这里[下载BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) ）
 1. CPU: Intel® Core™ i9-9900K Processor
