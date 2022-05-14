@@ -36,7 +36,7 @@
 1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
 1. 设置模式-高级模式
 
-# **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6.6/支持macOS Monterey 12.4 beta4**
+# **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6.6/支持macOS Monterey 12.4**
 1. OpenCore版本：0.8.1（内含主题如下图） 
 ![主题](https://tva2.sinaimg.cn/large/cec1774cly8h1g75kzm0vj21hc0u0gmt.jpg)
 ![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
