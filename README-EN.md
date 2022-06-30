@@ -1,26 +1,26 @@
-# *Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630&6600XT-EFI_OpenCore-0.8.1 macOS*
+# *Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630&6600XT-EFI_OpenCore-0.8.2 macOS*
 
-# [Chinese](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.1-macOS/blob/main/README.md)｜[English](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.1-macOS/blob/main/README-EN.md)
+# [Chinese](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.2-macOS/blob/main/README.md)｜[English](https: //github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.2-macOS/blob/main/README-EN.md)
 
-# Download click [releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.1-macOS/releases)
-Please download the IGPU version or the version with the version number less than 220305 if you only use the 630 display
+# Download click [releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.2-macOS/releases)
+Please download the IGPU version or the version with the version number less than 220305 if you only use the nuclear display
 # Please generate the Board Serial Number, serial number, SmUUID by yourself, and modify the "custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
 
-![系统信息](https://static01.imgkr.com/temp/0afe2bbe865d4788bc42c6afc025f601.png)
-![系统信息2](https://tva2.sinaimg.cn/large/cec1774cly8h274zgu9rsj20te0hi42o.jpg)
+![System Information](https://i.postimg.cc/cLKjSQZq/i-Shot-2022-06-30-22-31-28.png)
+![System Information 2](https://i.postimg.cc/BZgRcSNz/i-Shot-2022-06-30-22-31-44.png)
 
-## Changelogs：
-- [x] 1. Update oc version to 0.8.1/0513 compiled version
+## Changelog:
+- [x] 1. Update oc version to 0.8.2/0630 compiled version
 - [x] 2. Update all kext kernel extension drivers to the latest version
-- [x] 3. Add hfsplus.efi to support USB flash disk installation 
+- [x] 3. Add hfsplus.efi to support U disk installation
 - [x] 4. Add any AMD graphics card support version, theoretically support 5x0, 5x00, 6x00 graphics cards
-## If you use the Core display card UHD630 only, please download the IGPU version
+## If you only use nuclear display, please download the IGPU version
 
-### Configuration
+## configure
 1. Motherboard: ASUS PRIME Z390-P (BIOS Version 3006 please click here [Download BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) )
 1. CPU: Intel® Core™ i9-9900K Processor
-1. CPU Cooler：THERMALRIGHT Frost Commander 140 BLACK
-1. Core Graphics: Intel® UHD Graphics 630 (Please download the IGPU version or the version with the version number less than 220305 if you only use the nuclear display)
+1. CPU cooling: THERMALRIGHT Frost Commander 140 BLACK
+1. Core Graphics: Intel® UHD Graphics 630 (For core graphics only, please download the IGPU version or the version with the version number less than 220305)
 1. Graphics Card: AMD Radeon RX 6600 XT
 1. Onboard LAN: Realtek® RTL8111H Gigabit LAN Controller
 1. WiFi/Bluetooth: BCM943602CS (BT4.2)
@@ -36,31 +36,31 @@ Please download the IGPU version or the version with the version number less tha
 1. Start - Startup Settings - Quick Start - disable, if an error occurs, wait for pressing the F1 key - disable
 1. Setup Mode - Advanced Mode
 
-# **Applicable OS version: macOS Catalina 10.15.1～Big Sur 11.6.5/support macOS Monterey 12.4**
-1. OpenCore version: 0.8.1 (with themes as shown below)
+# **Applicable OS version: macOS Catalina 10.15.1～Big Sur 11.6.6/supports macOS Monterey 12.5/macOS Ventura 13.0 Beta2(22A5286j)**
+1. OpenCore version: 0.8.2 (with themes as shown below)
 ![Theme](https://tva2.sinaimg.cn/large/cec1774cly8h1g75kzm0vj21hc0u0gmt.jpg)
 ![Theme](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
-1. CPU frequency conversion: works fine.
+- [x] 1. CPU frequency conversion: works fine.
 ![CPU](https://tva4.sinaimg.cn/large/cec1774cly8h057spanbgj21860u0dio.jpg)
 ![Memory](https://tva2.sinaimg.cn/large/cec1774cly8h057svhmylj21860u0n0u.jpg)
-1. UHD630: works fine, VRAM is dynamic, maximum value: 4095 MB, HIDPI is enabled, H.264&HEVC hardware decoding acceleration is enabled, RX6600XT: works fine, increase the independent display AAPL, slot-name parameters, add RadeonSensor.kext&SMCRadeonGPU.kext, to Normal display of discrete graphics card temperature
+- [x] 2. UHD630: works normally, VRAM is dynamic, maximum value: 4095 MB, HIDPI is enabled, H.264&HEVC hardware decoding acceleration is enabled, RX6600XT: works normally, add independent display AAPL, slot-name parameters, add RadeonSensor.kext&SMCRadeonGPU .kext to display discrete graphics temperature as normal
 ![Graphics Card](https://tva4.sinaimg.cn/large/cec1774cly8h1xkrsg9spj21eg0u00vz.jpg)
 ![Graphics card 2](https://tva2.sinaimg.cn/large/cec1774cly8h1xkmoixcpj20lq0tg0uz.jpg)
 ![Hardware decoding acceleration: H.264&HEVC decoding](https://tva3.sinaimg.cn/large/cec1774cly8h1xkojr9ugj21880u0421.jpg)
-1. 3.5mm sound: works fine
+- [x] 3. 3.5mm sound: works fine
 ![Sound Card](https://tva3.sinaimg.cn/large/cec1774cly8h057stfz6fj21860u0gov.jpg)
-1. USB: works fine. After Big Sur version 11.3, if the USB is not loaded properly, you need to customize the USB, or cancel the loading of USBport.kext, and change the XhciPortLimit value to true
+- [x] 4. USB: Works normally, after Big Sur 11.3 version, if the USB is not loaded properly, you need to customize the USB, or cancel the loading of USBport.kext, and change the XhciPortLimit value to true
 ![USB](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1ee.png)
-1. Wired network card: works fine, using RealtekRTL8111.kext
+- [x] 5. Wired network card: works fine, using RealtekRTL8111.kext
 ![Wired network card](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1f6.png)
-1. Wireless network card: works fine
+- [x] 6. Wireless card: works fine
 ![Wi-Fi](https://pic.imgdb.cn/item/62280dd25baa1a80abdfa953.png)
-1. Sleep wake: works fine
+- [x] 7. Sleep wake: works fine
 ![Sleep 2](https://tva2.sinaimg.cn/large/cec1774cly8h057snf0lzj21860u0wh5.jpg)
 ![Sleep](https://tva1.sinaimg.cn/large/cec1774cly8h057wpxhe1j212p0u0410.jpg)
-1. Power off and on: Works fine
-1. iCloud & App Store & iMessage & FaceTime: works fine
-1. AirDrop & HandOff & Continuity: works fine.
+- [x] 8. Power off: Works fine
+- [x] 9. iCloud & App Store & iMessage & FaceTime: OK
+- [x] 10. AirDrop & HandOff & Continuity: OK.
 ![Bluetooth](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa682.png)
 
 ###Tips:
