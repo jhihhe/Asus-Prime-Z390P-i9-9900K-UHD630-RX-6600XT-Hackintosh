@@ -1,16 +1,16 @@
-# *Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630&6600XT-EFI_OpenCore-0.8.1 macOS*
+# *Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630&6600XT-EFI_OpenCore-0.8.2 macOS*
 
-# [中文](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.1-macOS/blob/main/README.md)｜[English](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.1-macOS/blob/main/README-EN.md)
+# [中文](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.2-macOS/blob/main/README.md)｜[English](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.2-macOS/blob/main/README-EN.md)
 
-# 下载点击[releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.1-macOS/releases)
+# 下载点击[releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.2-macOS/releases)
 仅使用核显请下载IGPU版本或版本号小于220305的版本
 # 请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM
 
-![系统信息](https://static01.imgkr.com/temp/0afe2bbe865d4788bc42c6afc025f601.png)
-![系统信息2](https://tva2.sinaimg.cn/large/cec1774cly8h274zgu9rsj20te0hi42o.jpg)
+![系统信息](https://static01.imgkr.com/temp/037bb3fcc41248cb8715d08c7d0d07e6.png)
+![系统信息2](https://static01.imgkr.com/temp/e7ebc7d07e2941c09295fcf4c4812970.png)
 
 ## 更新日志：
-- [x] 1. 更新 oc 版本到0.8.1/0513编译版
+- [x] 1. 更新 oc 版本到0.8.2/0630编译版
 - [x] 2. 更新所有kext内核拓展驱动到最新版本
 - [x] 3. 添加hfsplus.efi以支持u盘安装
 - [x] 4. 增加任意AMD显卡支持版本，理论上支持5x0,5x00,6x00显卡
@@ -36,8 +36,8 @@
 1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
 1. 设置模式-高级模式
 
-# **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6.6/支持macOS Monterey 12.4**
-1. OpenCore版本：0.8.1（内含主题如下图） 
+# **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6.6/支持macOS Monterey 12.5/macOS Ventura 13.0 Beta2(22A5286j)**
+1. OpenCore版本：0.8.2（内含主题如下图） 
 ![主题](https://tva2.sinaimg.cn/large/cec1774cly8h1g75kzm0vj21hc0u0gmt.jpg)
 ![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
 - [x] 1. CPU变频：工作正常。 
