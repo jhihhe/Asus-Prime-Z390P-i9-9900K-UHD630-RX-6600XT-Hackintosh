@@ -6,8 +6,8 @@
 仅使用核显请下载IGPU版本或版本号小于220305的版本
 # 请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM
 
-![系统信息](https://static01.imgkr.com/temp/037bb3fcc41248cb8715d08c7d0d07e6.png)
-![系统信息2](https://static01.imgkr.com/temp/e7ebc7d07e2941c09295fcf4c4812970.png)
+![系统信息](https://pic.imgdb.cn/item/62bdab271d64b07066a47d57.png)
+![系统信息2](https://pic.imgdb.cn/item/62bdab271d64b07066a47d73.png)
 
 ## 更新日志：
 - [x] 1. 更新 oc 版本到0.8.2/0630编译版
