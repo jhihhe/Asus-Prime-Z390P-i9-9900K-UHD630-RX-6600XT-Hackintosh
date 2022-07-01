@@ -13,7 +13,7 @@ Please download the IGPU version or the version with the version number less tha
 - [x] 1. Update oc version to 0.8.2/0630 compiled version
 - [x] 2. Update all kext kernel extension drivers to the latest version
 - [x] 3. Add hfsplus.efi to support U disk installation
-- [x] 4. Add any AMD graphics card support version, theoretically support 5x0, 5x00, 6x00 graphics cards
+
 ## If you only use nuclear display, please download the IGPU version
 
 ## configure
