@@ -37,9 +37,9 @@
 1. 设置模式-高级模式
 
 # **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6.6/支持macOS Monterey 12.5/macOS Ventura 13.0 Beta2(22A5286j)**
-1. OpenCore版本：0.8.2（内含主题如下图） 
+1. OpenCore版本：0.8.2
 ![主题](https://tva2.sinaimg.cn/large/cec1774cly8h1g75kzm0vj21hc0u0gmt.jpg)
-![主题](https://i.loli.net/2021/07/31/uFHJD2BMazqmTcA.png)
+![主题](https://i.postimg.cc/yYVcNt5H/i-Shot-2022-07-01-09-57-21.png)
 - [x] 1. CPU变频：工作正常。 
 ![CPU](https://tva4.sinaimg.cn/large/cec1774cly8h057spanbgj21860u0dio.jpg)
 ![内存](https://tva2.sinaimg.cn/large/cec1774cly8h057svhmylj21860u0n0u.jpg)
