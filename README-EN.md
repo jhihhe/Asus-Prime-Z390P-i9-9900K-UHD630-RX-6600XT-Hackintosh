@@ -1,8 +1,8 @@
-# *Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630&6600XT-EFI_OpenCore-0.8.2 macOS*
+# *Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630&6600XT-EFI_OpenCore-0.8.6 macOS*
 
-# [中文](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.2-macOS/blob/main/README.md)｜[English](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.2-macOS/blob/main/README-EN.md)
+# [中文](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.6-macOS/blob/main/README.md)｜[English](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.6-macOS/blob/main/README-EN.md)
 
-# Download click [releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.2-macOS/releases)
+# Download click [releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.6-macOS/releases)
 Please download the IGPU version or the version with the version number less than 220305 if you only use the nuclear display
 # Please generate the Board Serial Number, serial number, SmUUID by yourself, and modify the "custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
 
@@ -10,7 +10,7 @@ Please download the IGPU version or the version with the version number less tha
 ![System Information 2](https://i.postimg.cc/BZgRcSNz/i-Shot-2022-06-30-22-31-44.png)
 
 ## Changelog:
-- [x] 1. Update oc version to 0.8.2/0630 compiled version
+- [x] 1. Update oc version to 0.8.6/1025version
 - [x] 2. Update all kext kernel extension drivers to the latest version
 - [x] 3. Add hfsplus.efi to support U disk installation
 
@@ -36,8 +36,8 @@ Please download the IGPU version or the version with the version number less tha
 1. Start - Startup Settings - Quick Start - disable, if an error occurs, wait for pressing the F1 key - disable
 1. Setup Mode - Advanced Mode
 
-# **Applicable OS version: macOS Catalina 10.15.1～Big Sur 11.6.6/supports macOS Monterey 12.5/macOS Ventura 13.0 Beta2(22A5286j)**
-1. OpenCore version: 0.8.2 
+# **Applicable OS version: macOS Catalina 10.15.1～Big Sur 11.6.6/supports macOS Monterey 12.6.1/macOS Ventura 13.0**
+1. OpenCore version: 0.8.6 
 ![Theme](https://tva2.sinaimg.cn/large/cec1774cly8h1g75kzm0vj21hc0u0gmt.jpg)
 ![Theme](https://i.postimg.cc/yYVcNt5H/i-Shot-2022-07-01-09-57-21.png)
 - [x] 1. CPU frequency conversion: works fine.
