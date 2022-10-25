@@ -1,16 +1,16 @@
-# *Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630&6600XT-EFI_OpenCore-0.8.2 macOS*
+# *Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630&6600XT-EFI_OpenCore-0.8.6 macOS*
 
-# [中文](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.2-macOS/blob/main/README.md)｜[English](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.2-macOS/blob/main/README-EN.md)
+# [中文](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.6-macOS/blob/main/README.md)｜[English](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.6-macOS/blob/main/README-EN.md)
 
-# 下载点击[releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.2-macOS/releases)
-仅使用核显请下载IGPU版本或版本号小于220305的版本
+# 下载点击[releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.6-macOS/releases)
+仅使用核显请下载IGPU版本
 # 请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM
 
-![系统信息](https://i.postimg.cc/cLKjSQZq/i-Shot-2022-06-30-22-31-28.png)
-![系统信息2](https://i.postimg.cc/BZgRcSNz/i-Shot-2022-06-30-22-31-44.png)
+![系统信息](https://pic1.imgdb.cn/item/6357868f16f2c2beb15f7c9d.png)
+![系统信息2](https://pic1.imgdb.cn/item/6357868f16f2c2beb15f7c9a.png)
 
 ## 更新日志：
-- [x] 1. 更新 oc 版本到0.8.2/0630编译版
+- [x] 1. 更新 oc 版本到0.8.6/1025编译版
 - [x] 2. 更新所有kext内核拓展驱动到最新版本
 - [x] 3. 添加hfsplus.efi以支持u盘安装
 
@@ -36,8 +36,8 @@
 1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
 1. 设置模式-高级模式
 
-# **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6.6/支持macOS Monterey 12.5/macOS Ventura 13.0 Beta2(22A5286j)**
-1. OpenCore版本：0.8.2
+# **可适用操作系统版本：macOS Catalina 10.15.1～Big Sur 11.6.7/支持macOS Monterey 12.6.1/macOS Ventura 13.0**
+1. OpenCore版本：0.8.6
 ![主题](https://tva2.sinaimg.cn/large/cec1774cly8h1g75kzm0vj21hc0u0gmt.jpg)
 ![主题](https://i.postimg.cc/yYVcNt5H/i-Shot-2022-07-01-09-57-21.png)
 - [x] 1. CPU变频：工作正常。 
