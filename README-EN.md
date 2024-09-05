@@ -16,7 +16,7 @@
 1. Motherboard: ASUS PRIME Z390-P (BIOS Version 3006 please click here [Download BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) )
 1. CPU: Intel® Core™ i9-9900K Processor
 1. CPU cooling: THERMALRIGHT Frost Commander 140 BLACK
-1. Core Graphics: Intel® UHD Graphics 630 (For core graphics only, please download the IGPU version or the version with the version number less than 220305)
+1. Core Graphics: Intel® UHD Graphics 630 
 1. Graphics Card: AMD Radeon RX 6600 XT
 1. Onboard LAN: Realtek® RTL8111H Gigabit LAN Controller
 1. WiFi/Bluetooth: BCM943602CS (BT4.2)
