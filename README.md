@@ -6,11 +6,8 @@
 仅使用核显请下载IGPU版本
 # 请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM
 
-![系统信息](https://pic1.imgdb.cn/item/6357868f16f2c2beb15f7c9d.png)
-![系统信息2](https://pic1.imgdb.cn/item/6357868f16f2c2beb15f7c9a.png)
-
 ## 更新日志：
-- [x] 1. 更新 oc 版本到0.9.8编译版
+- [x] 1. 更新 oc 版本到1.0.1 MOD版
 - [x] 2. 更新所有kext内核拓展驱动到最新版本
 - [x] 3. 添加hfsplus.efi以支持u盘安装
 
@@ -36,8 +33,8 @@
 1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
 1. 设置模式-高级模式
 
-# **可适用操作系统版本：支持macOS Catalina/Big Sur/macOS Monterey 12.7.3/macOS Ventura 13.6.4**
-1. OpenCore版本：0.9.8
+# **可适用操作系统版本：支持macOS Catalina/Big Sur/macOS Monterey/macOS Ventura/macOS Sonoma **
+1. OpenCore版本：1.0.1
 ![主题](https://tva2.sinaimg.cn/large/cec1774cly8h1g75kzm0vj21hc0u0gmt.jpg)
 ![主题](https://i.postimg.cc/yYVcNt5H/i-Shot-2022-07-01-09-57-21.png)
 - [x] 1. CPU变频：工作正常。 
