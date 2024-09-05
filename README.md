@@ -47,11 +47,8 @@
 - [x] 3. 3.5mm声音：工作正常
 ![声卡](https://tva3.sinaimg.cn/large/cec1774cly8h057stfz6fj21860u0gov.jpg)
 - [x] 4. USB：工作正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true 
-![USB](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1ee.png)
 - [x] 5. 有线网卡：工作正常，使用了RealtekRTL8111.kext 
-![有线网卡](https://pic.imgdb.cn/item/62280dc95baa1a80abdfa1f6.png)
 - [x] 6. 无线网卡：工作正常 
-![Wi-Fi](https://pic.imgdb.cn/item/62280dd25baa1a80abdfa953.png)
 - [x] 7. 睡眠唤醒：工作正常 
 ![睡眠2](https://tva2.sinaimg.cn/large/cec1774cly8h057snf0lzj21860u0wh5.jpg)
 ![睡眠](https://tva1.sinaimg.cn/large/cec1774cly8h057wpxhe1j212p0u0410.jpg)
