@@ -50,12 +50,9 @@
 - [x] 5. 有线网卡：工作正常，使用了RealtekRTL8111.kext 
 - [x] 6. 无线网卡：工作正常 
 - [x] 7. 睡眠唤醒：工作正常 
-![睡眠2](https://tva2.sinaimg.cn/large/cec1774cly8h057snf0lzj21860u0wh5.jpg)
-![睡眠](https://tva1.sinaimg.cn/large/cec1774cly8h057wpxhe1j212p0u0410.jpg)
 - [x] 8. 关机开机：工作正常
 - [x] 9. iCloud & App Store & iMessage & FaceTime：正常
 - [x] 10. AirDrop & HandOff & Continuity：正常。
-![蓝牙](https://pic.imgdb.cn/item/62280dcf5baa1a80abdfa682.png)
 
 ### Tips：
 
