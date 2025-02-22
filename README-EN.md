@@ -1,64 +1,96 @@
-# *Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630&6600XT-EFI_OpenCore-1.0.1 macOS*
+# 🍎 Asus Prime Z390-P Hackintosh Configuration Guide
 
-# [中文](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.8-macOS/blob/main/README.md)｜[English](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.8-macOS/blob/main/README-EN.md)
+![Hackintosh Screenshot](https://i.postimg.cc/yYVcNt5H/i-Shot-2022-07-01-09-57-21.png)
 
-# Download click [releases](https://github.com/jhihhe/Hackintosh-Asus_Prime_Z390P-i9-9900K_UHD630-RX-6600XT-EFI_OpenCore-0.8.8-macOS/releases)
-# Please generate the Board Serial Number, serial number, SmUUID by yourself, and modify the "custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
+[中文](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/blob/main/README.md) | [English](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/blob/main/README-EN.md)
 
-## Changelog:
-- [x] 1. Update oc version to 1.0.1 MOD version
-- [x] 2. Update all kext kernel extension drivers to the latest version
-- [x] 3. Add hfsplus.efi to support U disk installation
+## 📥 Download Guide
+[![Release](https://img.shields.io/badge/Download-Releases-blue?style=for-the-badge&logo=github)](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/releases)
 
-## If you only use integrated graphics, please download the IGPU version
+> 💡 Notes:  
+> - For iGPU-only setups, download the **IGPU Version**  
+> - Required manual configurations:  
+>   `Board Serial Number` | `Serial Number` | `SmUUID`  
+>   ➤ Modify "Custom UUID" in `SysParameter`  
+>   ➤ Update `MLB` and `ROM` in `RtVariables`
 
-## configure
-1. Motherboard: ASUS PRIME Z390-P (BIOS Version 3006 please click here [Download BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) )
-1. CPU: Intel® Core™ i9-9900K Processor
-1. CPU cooling: THERMALRIGHT Frost Commander 140 BLACK
-1. Core Graphics: Intel® UHD Graphics 630 
-1. Graphics Card: AMD Radeon RX 6600 XT
-1. Onboard LAN: Realtek® RTL8111H Gigabit LAN Controller
-1. WiFi/Bluetooth: BCM943602CS (BT4.2)
-1. Sound Card: Realtek® ALC 887 8-Channel High Definition Audio
-1. Solid State Drive: Western Digital SN750 500GB (with TRIM enabled)
-![HDD Information](https://tva1.sinaimg.cn/large/cec1774cly8h057sy9inrj21860u0tcy.jpg)
+---
 
-### BIOS settings
-1. Advanced-CPU Settings--Intel(VMX) Virtualization Technology-enable
-1. Advanced - North Bridge - Display Settings - Preferred Graphics Card - Auto, Initialize IGPU-enable, DVMT Pre-Allocated-1024M, RC6-auto
-1. Advanced-USB Configuration--XHCI Hand-off -enable
-1. Advanced-Built-in Device-Serial Port Configuration-Serial Port-off
-1. Start - Startup Settings - Quick Start - disable, if an error occurs, wait for pressing the F1 key - disable
-1. Setup Mode - Advanced Mode
+## 🚀 Changelog
+- **2023-XX-XX**
+  - ✅ OpenCore upgraded to 1.0.1 MOD
+  - ✅ All Kexts updated to latest versions
+  - ✅ Added hfsplus.efi for USB installation support
 
-# **Applicable OS version: macOS Catalina/Big Sur/macOS Monterey/macOS Ventura/macOS Sonoma **
-1. OpenCore version:1.0.1
-![Theme](https://tva2.sinaimg.cn/large/cec1774cly8h1g75kzm0vj21hc0u0gmt.jpg)
-![Theme](https://i.postimg.cc/yYVcNt5H/i-Shot-2022-07-01-09-57-21.png)
-- [x] 1. CPU frequency conversion: works fine.
-![CPU](https://tva4.sinaimg.cn/large/cec1774cly8h057spanbgj21860u0dio.jpg)
-![Memory](https://tva2.sinaimg.cn/large/cec1774cly8h057svhmylj21860u0n0u.jpg)
-- [x] 2. UHD630: works normally, VRAM is dynamic, maximum value: 4095 MB, HIDPI is enabled, H.264&HEVC hardware decoding acceleration is enabled, RX6600XT: works normally, add independent display AAPL, slot-name parameters, add RadeonSensor.kext&SMCRadeonGPU .kext to display discrete graphics temperature as normal
-![Graphics Card](https://tva4.sinaimg.cn/large/cec1774cly8h1xkrsg9spj21eg0u00vz.jpg)
-![Graphics card 2](https://tva2.sinaimg.cn/large/cec1774cly8h1xkmoixcpj20lq0tg0uz.jpg)
-![Hardware decoding acceleration: H.264&HEVC decoding](https://tva3.sinaimg.cn/large/cec1774cly8h1xkojr9ugj21880u0421.jpg)
-- [x] 3. 3.5mm sound: works fine
-![Sound Card](https://tva3.sinaimg.cn/large/cec1774cly8h057stfz6fj21860u0gov.jpg)
-- [x] 4. USB: Works normally, after Big Sur 11.3 version, if the USB is not loaded properly, you need to customize the USB, or cancel the loading of USBport.kext, and change the XhciPortLimit value to true
-- [x] 5. Wired network card: works fine, using RealtekRTL8111.kext
-- [x] 6. Wireless card: works fine
-- [x] 7. Sleep wake: works fine
-- [x] 8. Power off: Works fine
-- [x] 9. iCloud & App Store & iMessage & FaceTime: OK
-- [x] 10. AirDrop & HandOff & Continuity: OK.
+---
 
-###Tips:
+## ⚙️ Hardware Specifications
+| Component       | Model                                      |
+|-----------------|-------------------------------------------|
+| Motherboard     | ASUS PRIME Z390-P (BIOS 3006) [Download](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) |
+| CPU             | Intel Core i9-9900K                       |
+| Cooler          | THERMALRIGHT Frost Commander 140 BLACK    |
+| iGPU            | Intel UHD 630 (Use IGPU Version)          |
+| dGPU            | AMD Radeon RX 6600 XT                     |
+| LAN             | Realtek RTL8111H Gigabit Ethernet         |
+| WiFi/BT         | BCM943602CS (BT4.2)                       |
+| Audio           | Realtek ALC 887                           |
+| Storage         | WD SN750 500GB (TRIM Enabled)             |
 
-1. The model needs to be set to iMAC19.1 (it is already preset, please modify it after the installation is complete).
-1. The config defaults to no verbose mode. To enable verbose mode, config.plist needs to modify the following one: NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args, add -v.
-1. The config startup disk policy ScanPolicy value is set to 0. Bootable Windows or Other OS (Linux, Unix) To specify the search partition type, please refer to the OC configuration manual.
+![Storage Info](https://tva1.sinaimg.cn/large/cec1774cly8h057sy9inrj21860u0tcy.jpg)
 
-# thanks
-# Using igarashikenshin's README.md editing format, if you need other versions, you can click the link to view
-https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX6800XT
+---
+
+## ⚡ BIOS Settings
+1. **Advanced** → **CPU Configuration**  
+   - Intel(VMX) Virtualization Technology → **Enabled**
+
+2. **Advanced** → **System Agent (SA) Configuration**  
+   - Primary Display → **Auto**  
+   - iGPU → **Enabled**  
+   - DVMT Pre-Allocated → **1024M**  
+   - RC6 → **Auto**
+
+3. **Advanced** → **USB Configuration**  
+   - XHCI Hand-off → **Enabled**
+
+4. **Boot** → **Boot Configuration**  
+   - Fast Boot → **Disabled**  
+   - Wait For F1 Error → **Disabled**
+
+---
+
+## 🍏 System Compatibility
+**Supported OS**: macOS Catalina ~ macOS Sonoma  
+**OpenCore**: 1.0.1  
+
+![Theme Preview](https://tva2.sinaimg.cn/large/cec1774cly8h1g75kzm0vj21hc0u0gmt.jpg)
+
+---
+
+## ✅ Functional Verification
+| Feature            | Status | Details |
+|--------------------|--------|---------|
+| CPU Power Management | ✔️   | [Screenshot](https://tva4.sinaimg.cn/large/cec1774cly8h057spanbgj21860u0dio.jpg) |
+| iGPU/dGPU Acceleration | ✔️ | HIDPI/H.264/HEVC support |
+| Audio Output       | ✔️   | 3.5mm Jack working |
+| USB 3.0            | ✔️   | Requires USBPorts.kext customization |
+| Wired Network      | ✔️   | RealtekRTL8111.kext |
+| WiFi & Bluetooth   | ✔️   | BCM943602CS fully functional |
+| Sleep/Wake         | ✔️   | S3 Sleep supported |
+| Apple Services     | ✔️   | iCloud/iMessage fully functional |
+
+---
+
+## 📝 Usage Tips
+1. **SMBIOS Settings**: Default `iMac19,1` (Modify post-installation)
+2. **Verbose Mode**: Add `-v` to `boot-args`
+3. **Multi-Boot Support**: ScanPolicy=0 for Windows/Linux
+4. **USB Configuration**:
+   - Disable USBPorts.kext on macOS 11.3+
+   - Set `XhciPortLimit=true`
+
+---
+
+## 🙏 Acknowledgments
+This project references configurations from [igarashikenshin](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX6800XT). Special thanks to the Hackintosh community for their contributions!
