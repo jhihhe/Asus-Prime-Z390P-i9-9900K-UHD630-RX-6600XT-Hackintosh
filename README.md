@@ -1,65 +1,96 @@
-# *Asus-Prime-Z390P i9 9900K UHD630/RX-6600XT-Hackintosh*
+# 🍎 Asus Prime Z390-P Hackintosh 黑苹果配置指南
 
-# [中文](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/blob/main/README.md)｜[English](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/blob/main/README-EN.md)
+![Hackintosh Screenshot](https://i.postimg.cc/yYVcNt5H/i-Shot-2022-07-01-09-57-21.png)
 
-# 下载点击[releases](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/releases)
-仅使用核显请下载IGPU版本
-# 请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM
+[中文](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/blob/main/README.md) | [English](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/blob/main/README-EN.md)
 
-## 更新日志：
-- [x] 1. 更新 oc 版本到1.0.1 MOD版
-- [x] 2. 更新所有kext内核拓展驱动到最新版本
-- [x] 3. 添加hfsplus.efi以支持u盘安装
+## 📥 下载指南
+[![Release](https://img.shields.io/badge/Download-Releases-blue?style=for-the-badge&logo=github)](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/releases)
 
-## 如仅使用核显请下载IGPU版本
+> 💡 注意：  
+> - 仅使用核显请下载 **IGPU 版本**  
+> - 需自行生成：  
+>   `Board Serial Number` | `序列号` | `SmUUID`  
+>   ➤ 修改 `SysParameter` 中的 "自定义UUID"  
+>   ➤ 修改 `RtVariables` 中的 `MLB` 和 `ROM`
 
-## 配置
-1. 主板: ASUS PRIME Z390-P （BIOS Version 3006 请点击这里[下载BIOS](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) ）
-1. CPU: Intel® Core™ i9-9900K Processor
-1. CPU 散热：THERMALRIGHT Frost Commander 140 BLACK
-1. 核显: Intel® UHD Graphics 630(仅使用核显请下载IGPU版本或版本号小于220305的版本)
-1. 显卡: AMD Radeon RX 6600 XT
-1. 板载网卡: Realtek® RTL8111H Gigabit LAN Controller
-1. WiFi/蓝牙: BCM943602CS（BT4.2）
-1. 声卡: Realtek® ALC 887 8-Channel High Definition Audio
-1. 固态硬盘: 西数SN750 500GB（开启TRIM）
+---
+
+## 🚀 更新日志
+- **2023-XX-XX**
+  - ✅ OpenCore 升级至 1.0.1 MOD 版
+  - ✅ 所有 Kext 驱动更新至最新版本
+  - ✅ 新增 hfsplus.efi 支持 U 盘安装
+
+---
+
+## ⚙️ 硬件配置
+| 组件         | 型号                                      |
+|--------------|------------------------------------------|
+| 主板         | ASUS PRIME Z390-P (BIOS 3006) [下载](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) |
+| CPU          | Intel Core i9-9900K                      |
+| 散热         | THERMALRIGHT Frost Commander 140 BLACK   |
+| 核显         | Intel UHD 630 (IGPU 专用版本可用)         |
+| 独显         | AMD Radeon RX 6600 XT                    |
+| 网卡         | Realtek RTL8111H 千兆网卡                |
+| 无线/蓝牙    | BCM943602CS (BT4.2)                      |
+| 声卡         | Realtek ALC 887                          |
+| 存储         | WD SN750 500GB (TRIM 已开启)             |
+
 ![硬盘信息](https://tva1.sinaimg.cn/large/cec1774cly8h057sy9inrj21860u0tcy.jpg)
 
-### BIOS设置
-1. 高级-CPU设置--Intel(VMX) Virtualization Technology -enable
-1. 高级-北桥-显示设置--首选显卡-Auto，初始化IGPU-enable，DVMT Pre-Allocated-1024M，RC6-auto
-1. 高级-USB Configuration--XHCI Hand-off -enable
-1. 高级-内置设备-Serial Port Configuration-Serial Port -off
-1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
-1. 设置模式-高级模式
+---
 
-# **可适用操作系统版本：支持macOS Catalina/Big Sur/macOS Monterey/macOS Ventura/macOS Sonoma **
-1. OpenCore版本：1.0.1
-![主题](https://tva2.sinaimg.cn/large/cec1774cly8h1g75kzm0vj21hc0u0gmt.jpg)
-![主题](https://i.postimg.cc/yYVcNt5H/i-Shot-2022-07-01-09-57-21.png)
-- [x] 1. CPU变频：工作正常。 
-![CPU](https://tva4.sinaimg.cn/large/cec1774cly8h057spanbgj21860u0dio.jpg)
-![内存](https://tva2.sinaimg.cn/large/cec1774cly8h057svhmylj21860u0n0u.jpg)
-- [x] 2. UHD630：工作正常，VRAM动态，最大值：4095 MB，开启HIDPI，开启H.264&HEVC硬件解码加速，RX6600XT：工作正常，增加独显AAPL,slot-name参数，加入RadeonSensor.kext&SMCRadeonGPU.kext，以正常显示独立显卡温度
-![显卡](https://tva4.sinaimg.cn/large/cec1774cly8h1xkrsg9spj21eg0u00vz.jpg)
-![显卡2](https://tva2.sinaimg.cn/large/cec1774cly8h1xkmoixcpj20lq0tg0uz.jpg)
-![硬件解码加速：H.264&HEVC解码](https://tva3.sinaimg.cn/large/cec1774cly8h1xkojr9ugj21880u0421.jpg)
-- [x] 3. 3.5mm声音：工作正常
-![声卡](https://tva3.sinaimg.cn/large/cec1774cly8h057stfz6fj21860u0gov.jpg)
-- [x] 4. USB：工作正常，Big Sur 11.3版本后，如USB加载不正常，需自行定制usb，或取消加载USBport.kext，将XhciPortLimit值变更为true 
-- [x] 5. 有线网卡：工作正常，使用了RealtekRTL8111.kext 
-- [x] 6. 无线网卡：工作正常 
-- [x] 7. 睡眠唤醒：工作正常 
-- [x] 8. 关机开机：工作正常
-- [x] 9. iCloud & App Store & iMessage & FaceTime：正常
-- [x] 10. AirDrop & HandOff & Continuity：正常。
+## ⚡ BIOS 设置
+1. **Advanced** → **CPU Configuration**  
+   - Intel(VMX) Virtualization Technology → **Enabled**
 
-### Tips：
+2. **Advanced** → **System Agent (SA) Configuration**  
+   - Primary Display → **Auto**  
+   - iGPU → **Enabled**  
+   - DVMT Pre-Allocated → **1024M**  
+   - RC6 → **Auto**
 
-1. 机型需设定为iMAC19.1（现已预置，安装完成后请自行修改）。
-1. 该config默认为无verbose模式。如需启用verbose模式，config.plist需要修改以下一项：NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args，添加-v。
-1. 该config启动盘策略 ScanPolicy 值设置为0。可引导Windows或Other OS（Linux、Unix）如需指定搜索分区类型，可参考OC配置手册。
+3. **Advanced** → **USB Configuration**  
+   - XHCI Hand-off → **Enabled**
 
-# 鸣谢 
-# 采用了igarashikenshin的README.md编辑格式，如果需其他版本可点击大佬链接查看
-https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX6800XT
+4. **Boot** → **Boot Configuration**  
+   - Fast Boot → **Disabled**  
+   - Wait For F1 Error → **Disabled**
+
+---
+
+## 🍏 系统兼容性
+**支持版本**: macOS Catalina ~ macOS Sonoma  
+**OpenCore**: 1.0.1  
+
+![主题界面](https://tva2.sinaimg.cn/large/cec1774cly8h1g75kzm0vj21hc0u0gmt.jpg)
+
+---
+
+## ✅ 功能验证
+| 功能               | 状态 | 备注 |
+|--------------------|------|------|
+| CPU 变频           | ✔️   | [查看截图](https://tva4.sinaimg.cn/large/cec1774cly8h057spanbgj21860u0dio.jpg) |
+| 核显/独显加速      | ✔️   | HIDPI/H.264/HEVC 支持 |
+| 音频输出           | ✔️   | 3.5mm 接口正常 |
+| USB 3.0            | ✔️   | 需定制 USBPorts.kext |
+| 有线网络           | ✔️   | RealtekRTL8111.kext |
+| 无线网络 & 蓝牙    | ✔️   | BCM943602CS 驱动正常 |
+| 睡眠/唤醒          | ✔️   | S3 睡眠支持 |
+| Apple 服务         | ✔️   | iCloud/iMessage 等全功能正常 |
+
+---
+
+## 📝 使用提示
+1. **机型设置**: 默认使用 `iMac19,1`（安装后需自行修改）
+2. **Verbose 模式**: 在 `boot-args` 添加 `-v`
+3. **多系统引导**: ScanPolicy=0 支持 Windows/Linux
+4. **USB 问题**: 
+   - macOS 11.3+ 需禁用 USBPorts.kext
+   - 设置 `XhciPortLimit=true`
+
+---
+
+## 🙏 致谢
+本项目参考了 [igarashikenshin](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX6800XT) 的配置方案，特别感谢黑苹果社区的各位开发者！
