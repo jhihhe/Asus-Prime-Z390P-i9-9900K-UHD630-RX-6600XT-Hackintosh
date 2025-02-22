@@ -17,7 +17,6 @@
 ---
 
 ## 🚀 Changelog
-- **2023-XX-XX**
   - ✅ OpenCore upgraded to 1.0.1 MOD
   - ✅ All Kexts updated to latest versions
   - ✅ Added hfsplus.efi for USB installation support
