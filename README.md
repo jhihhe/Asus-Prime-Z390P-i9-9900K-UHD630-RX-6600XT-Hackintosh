@@ -1,6 +1,7 @@
 # 🍎 Asus Prime Z390-P Hackintosh 黑苹果配置指南
 
 ![Hackintosh Screenshot](https://i.postimg.cc/yYVcNt5H/i-Shot-2022-07-01-09-57-21.png)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-green)
 
 [中文](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/blob/main/README.md) | [English](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/blob/main/README-EN.md)
 
