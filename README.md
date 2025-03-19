@@ -6,7 +6,7 @@
 [中文](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/blob/main/README.md) | [English](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/blob/main/README-EN.md)
 
 ## 📥 下载指南
-[![Release](https://img.shields.io/badge/Download-Releases-blue?style=for-the-badge&logo=github)](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/releases)
+[![Release](https://img.shields.io/badge/Download-Releases-blue?style=for-the-badge&logo=github)](https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/releases)  
 
 > 💡 注意：  
 > - 仅使用核显请下载 **IGPU 版本**  
@@ -18,7 +18,7 @@
 ---
 
 ## 🚀 更新日志
-  - ✅ OpenCore 升级至 1.0.1 MOD 版
+  - ✅ OpenCore 升级至 1.0.5 MOD 版
   - ✅ 所有 Kext 驱动更新至最新版本
   - ✅ 新增 hfsplus.efi 支持 U 盘安装
 
@@ -27,7 +27,7 @@
 ## ⚙️ 硬件配置
 | 组件         | 型号                                      |
 |--------------|------------------------------------------|
-| 主板         | ASUS PRIME Z390-P (BIOS 3006) [下载](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/) |
+| 主板         | ASUS PRIME Z390-P (BIOS 3006) [下载](https://www.asus.com/us/motherboards-components/motherboards/prime/prime-z390-p/HelpDesk_BIOS/)   |
 | CPU          | Intel Core i9-9900K                      |
 | 散热         | THERMALRIGHT Frost Commander 140 BLACK   |
 | 核显         | Intel UHD 630 (IGPU 专用版本可用)         |
@@ -45,7 +45,7 @@
 1. **Advanced** → **CPU Configuration**  
    - Intel(VMX) Virtualization Technology → **Enabled**
 
-2. **Advanced** → **System Agent (SA) Configuration**  
+2. **Advanced** → **System Agent (SA) Configuration**    
    - Primary Display → **Auto**  
    - iGPU → **Enabled**  
    - DVMT Pre-Allocated → **1024M**  
@@ -61,10 +61,10 @@
 ---
 
 ## 🍏 系统兼容性
-**支持版本**: macOS Catalina ~ macOS Sonoma  
-**OpenCore**: 1.0.1  
+**支持版本**: macOS Catalina ~ macOS Sequoia   
+**OpenCore**: 1.0.5
 
-![主题界面](https://tva2.sinaimg.cn/large/cec1774cly8h1g75kzm0vj21hc0u0gmt.jpg)
+![主题界面](https://tva2.sinaimg.cn/large/cec1774cly8h1g75kzm0vj21hc0u0gmt.jpg)  
 
 ---
 
