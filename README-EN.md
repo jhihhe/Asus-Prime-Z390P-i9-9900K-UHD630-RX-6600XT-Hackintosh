@@ -17,7 +17,7 @@
 ---
 
 ## 🚀 Changelog
-  - ✅ OpenCore upgraded to 1.0.1 MOD
+  - ✅ OpenCore upgraded to 1.0.5 MOD  
   - ✅ All Kexts updated to latest versions
   - ✅ Added hfsplus.efi for USB installation support
 
@@ -60,8 +60,8 @@
 ---
 
 ## 🍏 System Compatibility
-**Supported OS**: macOS Catalina ~ macOS Sonoma  
-**OpenCore**: 1.0.1  
+**Supported OS**: macOS Catalina ~ macOS Sequoia
+**OpenCore**: 1.0.5
 
 ![Theme Preview](https://tva2.sinaimg.cn/large/cec1774cly8h1g75kzm0vj21hc0u0gmt.jpg)
 
