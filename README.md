@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/OpenCore-1.0.5_MOD-9cf?style=flat-square&logo=apple" />    
+  <img src="https://img.shields.io/badge/macOS-Sequoia_15.4-success?style=flat-square&logo=apple" />    
+  <img src="https://img.shields.io/badge/BIOS-FN60G_B11HF210-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-green" />    
+
+</p>
+
 # 🍎 Asus Prime Z390-P Hackintosh 黑苹果配置指南
 
 ![Hackintosh Screenshot](https://i.postimg.cc/yYVcNt5H/i-Shot-2022-07-01-09-57-21.png)
