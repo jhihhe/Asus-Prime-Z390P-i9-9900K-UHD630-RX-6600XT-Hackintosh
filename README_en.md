@@ -63,82 +63,6 @@ This project provides a complete OpenCore EFI configuration for the **ASUS PRIME
 | Audio | Realtek ALC887 | ✅ Verified |
 | RAM | DDR4 | ✅ Verified |
 
-### 🔧 SMBIOS Configuration
-
-```
-Model: iMac19,1
-Serial: C02DR0FJJV3Q
-MLB: C02048802J9LNV9CB
-UUID: 28A6D2F3-5152-4229-9A87-0E97331FF84D
-```
-
----
-
-## 📁 EFI Structure
-
-```
-EFI/
-├── APPLE/
-│   └── FIRMWARE/
-│       └── IM191.fd
-├── BOOT/
-│   ├── .contentVisibility
-│   └── BOOTx64.efi
-└── OC/
-    ├── ACPI/
-    │   ├── SSDT-AWAC-DISABLE.aml    # AWAC clock disable
-    │   ├── SSDT-PLUG.aml            # CPU power management
-    │   └── SSDT-PMC.aml             # PMC fix
-    ├── Drivers/
-    │   ├── CrScreenshotDxe.efi      # Screenshot function
-    │   ├── HfsPlus.efi               # HFS+ filesystem support
-    │   ├── OpenCanopy.efi            # Graphical interface
-    │   ├── OpenRuntime.efi           # Runtime driver
-    │   ├── ResetNvramEntry.efi       # NVRAM reset
-    │   └── ToggleSipEntry.efi        # SIP toggle tool
-    ├── Kexts/
-    │   ├── AMFIPass.kext             # AMFI patch delivery
-    │   ├── AirportBrcmFixup.kext     # Broadcom WiFi fix
-    │   ├── AppleALC.kext             # Audio driver
-    │   ├── AppleALCU.kext            # USB audio driver
-    │   ├── BlueToolFixup.kext        # Bluetooth fix
-    │   ├── BrcmFirmwareData.kext     # Broadcom firmware data
-    │   ├── BrcmPatchRAM3.kext        # Broadcom patch driver
-    │   ├── IO80211FamilyLegacy.kext  # Legacy WiFi driver
-    │   ├── IOSkywalkFamily.kext      # macOS 26 support
-    │   ├── Lilu.kext                 # Base library
-    │   ├── RadeonSensor.kext          # GPU sensor
-    │   ├── RealtekRTL8111.kext       # Realtek ethernet
-    │   ├── RestrictEvents.kext        # Event restriction
-    │   ├── SMCProcessor.kext         # SMC processor
-    │   ├── SMCRadeonGPU.kext         # AMD SMC support
-    │   ├── SMCSuperIO.kext           # SuperIO sensor
-    │   ├── USBPorts.kext             # USB port customization
-    │   ├── VirtualSMC.kext           # SMC virtualization
-    │   └── WhateverGreen.kext        # GPU fix
-    ├── Resources/
-    │   ├── Audio/                    # Boot sounds
-    │   ├── Font/                     # Interface fonts
-    │   ├── Image/jhih/Hackintosh/   # Theme images
-    │   └── Label/                    # Label resources
-    ├── Tools/
-    │   ├── BootKicker.efi
-    │   ├── ChipTune.efi
-    │   ├── CleanNvram.efi
-    │   ├── ControlMsrE2.efi
-    │   ├── CsrUtil.efi
-    │   ├── GopStop.efi
-    │   ├── KeyTester.efi
-    │   ├── MmapDump.efi
-    │   ├── OpenControl.efi
-    │   ├── OpenShell.efi
-    │   ├── ResetSystem.efi
-    │   ├── RtcRw.efi
-    │   └── TpmInfo.efi
-    ├── OpenCore.efi
-    └── config.plist
-```
-
 ---
 
 ## 🚀 Installation Guide
@@ -227,7 +151,7 @@ For macOS Sonoma/Sequoia/Tahoe
 ### 🔧 Using OpenCore Legacy Patcher
 
 <p align="center">
-  <a href="https://github.com/dortania/OpenCore-Legacy-Patcher"><img src="https://img.shields.io/badge/Download-OCLP-red?style=for-the-badge" alt="Download OCLP"></a>
+  <a href="https://github.com/laobamac/OCLP-Mod/releases"><img src="https://img.shields.io/badge/Download-OCLP--Mod-red?style=for-the-badge" alt="Download OCLP-Mod"></a>
 </p>
 
 #### 📋 Procedure

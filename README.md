@@ -63,82 +63,6 @@
 | 声卡 | Realtek ALC887 | ✅ 已验证 |
 | 内存 | DDR4 | ✅ 已验证 |
 
-### 🔧 SMBIOS 配置
-
-```
-型号: iMac19,1
-序列号: C02DR0FJJV3Q
-MLB: C02048802J9LNV9CB
-UUID: 28A6D2F3-5152-4229-9A87-0E97331FF84D
-```
-
----
-
-## 📁 EFI 结构
-
-```
-EFI/
-├── APPLE/
-│   └── FIRMWARE/
-│       └── IM191.fd
-├── BOOT/
-│   ├── .contentVisibility
-│   └── BOOTx64.efi
-└── OC/
-    ├── ACPI/
-    │   ├── SSDT-AWAC-DISABLE.aml    # 禁用 AWAC 时钟
-    │   ├── SSDT-PLUG.aml            # CPU 电源管理
-    │   └── SSDT-PMC.aml             # PMC 修复
-    ├── Drivers/
-    │   ├── CrScreenshotDxe.efi      # 截图功能
-    │   ├── HfsPlus.efi               # HFS+ 文件系统支持
-    │   ├── OpenCanopy.efi            # 图形化界面
-    │   ├── OpenRuntime.efi           # 运行时驱动
-    │   ├── ResetNvramEntry.efi       # 重置 NVRAM
-    │   └── ToggleSipEntry.efi        # SIP 切换工具
-    ├── Kexts/
-    │   ├── AMFIPass.kext             # AMFI 补丁传递
-    │   ├── AirportBrcmFixup.kext     # 博通 WiFi 修复
-    │   ├── AppleALC.kext             # 声卡驱动
-    │   ├── AppleALCU.kext            # USB 声卡驱动
-    │   ├── BlueToolFixup.kext        # 蓝牙修复
-    │   ├── BrcmFirmwareData.kext     # 博通固件数据
-    │   ├── BrcmPatchRAM3.kext        # 博通补丁驱动
-    │   ├── IO80211FamilyLegacy.kext  # 旧版 WiFi 驱动
-    │   ├── IOSkywalkFamily.kext      # macOS 26 支持
-    │   ├── Lilu.kext                 # 基础库
-    │   ├── RadeonSensor.kext          # 显卡传感器
-    │   ├── RealtekRTL8111.kext       # Realtek 有线网卡
-    │   ├── RestrictEvents.kext        # 事件限制
-    │   ├── SMCProcessor.kext         # SMC 处理器
-    │   ├── SMCRadeonGPU.kext         # AMD SMC 支持
-    │   ├── SMCSuperIO.kext           # SuperIO 传感器
-    │   ├── USBPorts.kext             # USB 端口定制
-    │   ├── VirtualSMC.kext           # SMC 虚拟化
-    │   └── WhateverGreen.kext        # 显卡修复
-    ├── Resources/
-    │   ├── Audio/                    # 启动音效
-    │   ├── Font/                     # 界面字体
-    │   ├── Image/jhih/Hackintosh/   # 主题图片
-    │   └── Label/                    # 标签资源
-    ├── Tools/
-    │   ├── BootKicker.efi
-    │   ├── ChipTune.efi
-    │   ├── CleanNvram.efi
-    │   ├── ControlMsrE2.efi
-    │   ├── CsrUtil.efi
-    │   ├── GopStop.efi
-    │   ├── KeyTester.efi
-    │   ├── MmapDump.efi
-    │   ├── OpenControl.efi
-    │   ├── OpenShell.efi
-    │   ├── ResetSystem.efi
-    │   ├── RtcRw.efi
-    │   └── TpmInfo.efi
-    ├── OpenCore.efi
-    └── config.plist
-```
-
 ---
 
 ## 🚀 安装指南
@@ -227,7 +151,7 @@ EFI/
 ### 🔧 使用 OpenCore Legacy Patcher
 
 <p align="center">
-  <a href="https://github.com/dortania/OpenCore-Legacy-Patcher"><img src="https://img.shields.io/badge/Download-OCLP-red?style=for-the-badge" alt="Download OCLP"></a>
+  <a href="https://github.com/laobamac/OCLP-Mod/releases"><img src="https://img.shields.io/badge/Download-OCLP--Mod-red?style=for-the-badge" alt="Download OCLP-Mod"></a>
 </p>
 
 #### 📋 操作流程
