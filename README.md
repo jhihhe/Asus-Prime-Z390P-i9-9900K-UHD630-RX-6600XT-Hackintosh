@@ -3,8 +3,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/macOS-Sonoma%2014.6.1-purple?style=for-the-badge" alt="macOS Sonoma">
   <img src="https://img.shields.io/badge/macOS-Ventura%2013.x-blue?style=for-the-badge" alt="macOS Ventura">
-  <img src="https://img.shields.io/badge/macOS-Tahoe%2026-blue?style=for-the-badge&label=macOS+Tahoe+26" alt="macOS Tahoe 26">
-  <img src="https://img.shields.io/badge/OpenCore-1.0.5%20MOD-green?style=for-the-badge" alt="OpenCore 1.0.5 MOD">
+  <img src="https://img.shields.io/badge/macOS-Tahoe%2026.5-blue?style=for-the-badge&label=macOS+Tahoe+26.5" alt="macOS Tahoe 26.5">
+  <img src="https://img.shields.io/badge/OpenCore-1.0.8%20MOD-green?style=for-the-badge" alt="OpenCore 1.0.8 MOD">
 </p>
 
 <p align="center">
@@ -41,7 +41,7 @@
 ### ✨ 特性
 
 - ✅ 支持 macOS 15.x (Sonoma) 到 macOS 26.x (Tahoe)
-- ✅ 使用 OpenCore 1.0.5 MOD 核心
+- ✅ 使用 OpenCore 1.0.8 MOD 核心
 - ✅ 完整的硬件加速支持
 - ✅ 博通 WiFi 无线网卡原生驱动
 - ✅ 定制 AMD Radeon Pro W6600X 显卡配置
@@ -188,21 +188,23 @@ EFI/
 
 ## 📝 驱动更新日志
 
-### v1.0.5 MOD (2025-03-19)
+### v1.0.8 MOD (2025-04-30)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Date-2025--03--19-blue?style=flat-square" alt="Date">
-  <img src="https://img.shields.io/badge/OpenCore-1.0.5%20MOD-green?style=flat-square" alt="OpenCore">
+  <img src="https://img.shields.io/badge/Date-2025--04--30-blue?style=flat-square" alt="Date">
+  <img src="https://img.shields.io/badge/OpenCore-1.0.8%20MOD-green?style=flat-square" alt="OpenCore">
 </p>
 
 #### ✨ 核心更新
 
-- OpenCore 升级至 1.0.5 MOD 版
+- OpenCore 升级至 1.0.8 MOD 版
 - 全量更新内核扩展(kext)至最新稳定版本
 - 新增 HFS+ 文件系统支持（hfsplus.efi）
 - 定制 AMD Radeon Pro W6600X 显卡配置
 - IOSkywalkFamily.kext 升级至 v1.2.0
-- **新增 macOS 26 Tahoe 原生支持**
+- **新增 macOS 26.5 Tahoe 原生支持**
+- 添加 BlueToolFixup.kext 蓝牙支持
+- 优化 boot-args 兼容性参数
 
 ### v1.0.1 MOD (2024-09-05)
 
@@ -355,4 +357,4 @@ SOFTWARE.
 
 ---
 
-*最后更新: 2025-03-19 | OpenCore 1.0.5 MOD | 支持 macOS 26 Tahoe*
+*最后更新: 2025-04-30 | OpenCore 1.0.8 MOD | 支持 macOS 26.5 Tahoe*

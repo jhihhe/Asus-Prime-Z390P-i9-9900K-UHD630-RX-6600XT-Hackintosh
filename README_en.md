@@ -3,8 +3,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/macOS-Sonoma%2014.6.1-purple?style=for-the-badge" alt="macOS Sonoma">
   <img src="https://img.shields.io/badge/macOS-Ventura%2013.x-blue?style=for-the-badge" alt="macOS Ventura">
-  <img src="https://img.shields.io/badge/macOS-Tahoe%2026-blue?style=for-the-badge&label=macOS+Tahoe+26" alt="macOS Tahoe 26">
-  <img src="https://img.shields.io/badge/OpenCore-1.0.5%20MOD-green?style=for-the-badge" alt="OpenCore 1.0.5 MOD">
+  <img src="https://img.shields.io/badge/macOS-Tahoe%2026.5-blue?style=for-the-badge&label=macOS+Tahoe+26.5" alt="macOS Tahoe 26.5">
+  <img src="https://img.shields.io/badge/OpenCore-1.0.8%20MOD-green?style=for-the-badge" alt="OpenCore 1.0.8 MOD">
 </p>
 
 <p align="center">
@@ -41,7 +41,7 @@ This project provides a complete OpenCore EFI configuration for the **ASUS PRIME
 ### ✨ Features
 
 - ✅ macOS 15.x (Sonoma) to macOS 26.x (Tahoe) support
-- ✅ OpenCore 1.0.5 MOD core
+- ✅ OpenCore 1.0.8 MOD core
 - ✅ Full hardware acceleration support
 - ✅ Native Broadcom WiFi driver support
 - ✅ Custom AMD Radeon Pro W6600X GPU configuration
@@ -188,21 +188,23 @@ After first boot, run [OpenCore Configurator](https://mackie100projects.altervis
 
 ## 📝 Kext Update Log
 
-### v1.0.5 MOD (2025-03-19)
+### v1.0.8 MOD (2025-04-30)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Date-2025--03--19-blue?style=flat-square" alt="Date">
-  <img src="https://img.shields.io/badge/OpenCore-1.0.5%20MOD-green?style=flat-square" alt="OpenCore">
+  <img src="https://img.shields.io/badge/Date-2025--04--30-blue?style=flat-square" alt="Date">
+  <img src="https://img.shields.io/badge/OpenCore-1.0.8%20MOD-green?style=flat-square" alt="OpenCore">
 </p>
 
 #### ✨ Core Updates
 
-- OpenCore upgraded to 1.0.5 MOD
+- OpenCore upgraded to 1.0.8 MOD
 - All kernel extensions (kext) updated to latest stable versions
 - Added HFS+ filesystem support (hfsplus.efi)
 - Custom AMD Radeon Pro W6600X GPU configuration
 - IOSkywalkFamily.kext upgraded to v1.2.0
-- **macOS 26 Tahoe native support added**
+- **macOS 26.5 Tahoe native support added**
+- Added BlueToolFixup.kext Bluetooth support
+- Optimized boot-args compatibility parameters
 
 ### v1.0.1 MOD (2024-09-05)
 
@@ -355,4 +357,4 @@ Issues and Pull Requests are welcome!
 
 ---
 
-*Last updated: 2025-03-19 | OpenCore 1.0.5 MOD | macOS 26 Tahoe Support*
+*Last updated: 2025-04-30 | OpenCore 1.0.8 MOD | macOS 26.5 Tahoe Support*
