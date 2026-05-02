@@ -80,7 +80,7 @@
                 <key>EnableSafeModeSlide</key>
                 <true/>
                 <key>EnableWriteUnprotector</key>
-                <true/>
+                <false/>
                 <key>FixupAppleEfiImages</key>
                 <false/>
                 <key>ForceBooterSignature</key>
@@ -98,7 +98,7 @@
                 <key>ProvideMaxSlide</key>
                 <integer>0</integer>
                 <key>RebuildAppleMemoryMap</key>
-                <false/>
+                <true/>
                 <key>ResizeAppleGpuBars</key>
                 <integer>-1</integer>
                 <key>SetupVirtualMap</key>
@@ -106,7 +106,7 @@
                 <key>SignalAppleOS</key>
                 <false/>
                 <key>SyncRuntimePermissions</key>
-                <false/>
+                <true/>
             </dict>
         </dict>
         <key>DeviceProperties</key>
@@ -130,7 +130,7 @@
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
-                    <data>AwCYPg==</data>
+                    <data>AwCSPg==</data>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -460,11 +460,11 @@
                 <key>DisableIoMapper</key>
                 <false/>
                 <key>DisableIoMapperMapping</key>
-                <false/>
+                <true/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
-                <true/>
+                <false/>
                 <key>ExtendBTFeatureFlags</key>
                 <false/>
                 <key>ExternalDiskIcons</key>
@@ -497,9 +497,9 @@
                 <key>CustomKernel</key>
                 <false/>
                 <key>FuzzyMatch</key>
-                <false/>
+                <true/>
                 <key>KernelArch</key>
-                <string>x86_64</string>
+                <string>Auto</string>
                 <key>KernelCache</key>
                 <string>Auto</string>
             </dict>
@@ -589,7 +589,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Disabled</string>
+                <string>Default</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -642,9 +642,9 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>boot-args</key>
-                    <string>agdpmod=pikera igfxfw=2 amfi=0x80 -amfipassbeta revpatch=sbvmm ipc_control_port_options=0 -disable_sidecar_mac_probed compat_check=0</string>
+                    <string>agdpmod=pikera revpatch=sbvmm</string>
                     <key>csr-active-config</key>
-                    <data>AwgAAA==</data>
+                    <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
                     <data>emgtSGFuczoyNTI=</data>
                 </dict>
@@ -703,7 +703,7 @@
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>iMac19,1</string>
+                <string>MacPro7,1</string>
                 <key>SystemSerialNumber</key>
                 <string>C02DR0FJJV3Q</string>
                 <key>SystemUUID</key>
@@ -716,7 +716,7 @@
             <key>UpdateSMBIOS</key>
             <true/>
             <key>UpdateSMBIOSMode</key>
-            <string>Custom</string>
+            <string>Create</string>
             <key>UseRawUuidEncoding</key>
             <false/>
         </dict>
@@ -879,13 +879,13 @@
                 <key>KeySupportMode</key>
                 <string>Auto</string>
                 <key>KeySwap</key>
-                <true/>
+                <false/>
                 <key>PointerSupport</key>
                 <false/>
                 <key>PointerSupportMode</key>
-                <string></string>
+                <string>ASUS</string>
                 <key>TimerResolution</key>
-                <integer>60000</integer>
+                <integer>50000</integer>
             </dict>
             <key>Output</key>
             <dict>
@@ -922,7 +922,7 @@
                 <key>TextRenderer</key>
                 <string>BuiltinGraphics</string>
                 <key>UIScale</key>
-                <integer>-1</integer>
+                <integer>0</integer>
                 <key>UgaPassThrough</key>
                 <false/>
             </dict>
@@ -974,9 +974,9 @@
                 <key>DisableSecurityPolicy</key>
                 <false/>
                 <key>EnableVectorAcceleration</key>
-                <false/>
-                <key>EnableVmx</key>
                 <true/>
+                <key>EnableVmx</key>
+                <false/>
                 <key>ExitBootServicesDelay</key>
                 <integer>0</integer>
                 <key>ForceOcWriteFlash</key>
