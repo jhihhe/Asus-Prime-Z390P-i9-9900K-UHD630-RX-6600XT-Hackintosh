@@ -314,9 +314,9 @@
                     <key>Arch</key>
                     <string>x86_64</string>
                     <key>BundlePath</key>
-                    <string>USBPorts.kext</string>
+                    <string>USBPorts_iMac20,2.kext</string>
                     <key>Comment</key>
-                    <string>V1.0</string>
+                    <string>V1.0 iMac20,2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
