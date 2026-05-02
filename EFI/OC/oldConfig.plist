@@ -130,7 +130,15 @@
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
-                    <data>AwCSPg==</data>
+                    <data>AwCYPg==</data>
+                    <key>device-id</key>
+                    <data>mz4AAA==</data>
+                    <key>framebuffer-fbmem</key>
+                    <data>AACQAA==</data>
+                    <key>framebuffer-patch-enable</key>
+                    <integer>1</integer>
+                    <key>framebuffer-stolenmem</key>
+                    <data>AAAwAQ==</data>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -306,7 +314,7 @@
                     <key>Arch</key>
                     <string>x86_64</string>
                     <key>BundlePath</key>
-                    <string>USBPorts.kext</string>
+                    <string>USBPorts_iMac20,2.kext</string>
                     <key>Comment</key>
                     <string>V1.0</string>
                     <key>Enabled</key>
@@ -644,9 +652,9 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>boot-args</key>
-                    <string>agdpmod=pikera revpatch=sbvmm</string>
+                    <string>agdpmod=pikera igfxfw=2 revpatch=sbvmm ipc_control_port_options=0</string>
                     <key>csr-active-config</key>
-                    <data>AAAAAA==</data>
+                    <data>AwgAAA==</data>
                     <key>prev-lang:kbd</key>
                     <data>emgtSGFuczoyNTI=</data>
                 </dict>
@@ -702,23 +710,23 @@
                 <key>AdviseFeatures</key>
                 <true/>
                 <key>MLB</key>
-                <string>F5K131310CDK3F7CB</string>
+                <string>C02029130J900001H</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>doIwFSId</data>
+                <data>cTPFKL6V</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>MacPro7,1</string>
+                <string>iMac20,2</string>
                 <key>SystemSerialNumber</key>
-                <string>F5KG50J8P7QM</string>
+                <string>C02D30TP046M</string>
                 <key>SystemUUID</key>
-                <string>759AD4F4-8EEE-4989-878A-7C8DCFA4E48A</string>
+                <string>C2E0D002-21E4-42B6-A135-68D437838C6C</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>

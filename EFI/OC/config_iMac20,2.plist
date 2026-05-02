@@ -133,12 +133,12 @@
                     <data>AwCYPg==</data>
                     <key>device-id</key>
                     <data>mz4AAA==</data>
+                    <key>framebuffer-fbmem</key>
+                    <data>AACQAA==</data>
                     <key>framebuffer-patch-enable</key>
                     <integer>1</integer>
                     <key>framebuffer-stolenmem</key>
                     <data>AAAwAQ==</data>
-                    <key>framebuffer-fbmem</key>
-                    <data>AACQAA==</data>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -314,7 +314,7 @@
                     <key>Arch</key>
                     <string>x86_64</string>
                     <key>BundlePath</key>
-                    <string>USBPorts_iMac20,2.kext</string>
+                    <string>USBPorts-iMac202.kext</string>
                     <key>Comment</key>
                     <string>V1.0 iMac20,2</string>
                     <key>Enabled</key>
@@ -710,13 +710,13 @@
                 <key>AdviseFeatures</key>
                 <true/>
                 <key>MLB</key>
-                <string>F5K032102QXK3F7UE</string>
+                <string>C02029130J900001H</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>h7RIcmKm</data>
+                <data>cTPFKL6V</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -724,9 +724,9 @@
                 <key>SystemProductName</key>
                 <string>iMac20,2</string>
                 <key>SystemSerialNumber</key>
-                <string>F5KD60G9P7QM</string>
+                <string>C02D30TP046M</string>
                 <key>SystemUUID</key>
-                <string>217FAFA6-EEFB-4F15-9D6B-69FAD4F13133</string>
+                <string>C2E0D002-21E4-42B6-A135-68D437838C6C</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -940,6 +940,8 @@
                 <false/>
                 <key>TextRenderer</key>
                 <string>BuiltinGraphics</string>
+                <key>UIScale</key>
+                <integer>-1</integer>
                 <key>UgaPassThrough</key>
                 <false/>
             </dict>
