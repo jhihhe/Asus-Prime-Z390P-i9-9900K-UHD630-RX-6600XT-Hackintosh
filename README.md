@@ -1,3 +1,13 @@
+<!-- readme-visuals:header:start -->
+<p align="center"><img src="readme-assets/banner.svg" alt="PRIME Z390-P — Intel i9-9900K / UHD 630 / RX 6600 XT" width="100%"></p>
+
+<p align="center">
+  <a href="https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/commits/main"><img src="https://img.shields.io/github/last-commit/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh?style=flat-square&amp;color=60a5fa" alt="Last commit"></a>
+  <a href="https://github.com/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh/stargazers"><img src="https://img.shields.io/github/stars/jhihhe/Asus-Prime-Z390P-i9-9900K-UHD630-RX-6600XT-Hackintosh?style=flat-square&amp;color=60a5fa" alt="GitHub stars"></a>
+  <a href="https://github.com/jhihhe"><img src="https://img.shields.io/badge/Maintainer-%40Jhih%20he-60a5fa?style=flat-square" alt="Maintainer: @Jhih he"></a>
+</p>
+<!-- readme-visuals:header:end -->
+
 # ASUS PRIME Z390-P Hackintosh EFI
 
 <p align="center">
@@ -19,6 +29,30 @@
 </p>
 
 ---
+
+<!-- readme-visuals:overview:start -->
+
+## 项目速览
+
+<table>
+<tr>
+<td width="33%"><strong>硬件配置</strong><br><br>围绕 Z390-P、i9-9900K 与 RX 6600 XT。</td>
+<td width="33%"><strong>OpenCore EFI</strong><br><br>引导配置、驱动与 BIOS 设置说明。</td>
+<td width="33%"><strong>维护指南</strong><br><br>保留安装步骤、网络说明与常见问题。</td>
+</tr>
+</table>
+
+### 流程概览
+
+```mermaid
+flowchart LR
+    S0["核对硬件与前置要求"] --> S1
+    S1["备份现有 EFI"] --> S2
+    S2["按指南配置 EFI 与 BIOS"] --> S3
+    S3["检查启动及设备状态"]
+```
+
+<!-- readme-visuals:overview:end -->
 
 ## 📋 目录
 

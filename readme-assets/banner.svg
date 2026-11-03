@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+ <title id="title">PRIME Z390-P</title><desc id="desc">Intel i9-9900K / UHD 630 / RX 6600 XT</desc>
+ <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101b2d"/><stop offset="1" stop-color="#0b1220"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern></defs>
+ <rect width="1200" height="360" rx="24" fill="url(#bg)"/><rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+ <path d="M0 0h1200" stroke="#60a5fa" stroke-width="8"/>
+ <circle cx="1080" cy="175" r="150" fill="#60a5fa" opacity=".045"/><circle cx="1080" cy="175" r="116" fill="none" stroke="#60a5fa" stroke-opacity=".14"/>
+ <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif">
+ <text x="64" y="75" fill="#60a5fa" font-size="15" font-weight="600" letter-spacing="3">OPENCORE / EFI</text>
+ <text x="60" y="167" fill="#f1f5f9" font-size="66" font-weight="700">PRIME Z390-P</text>
+ <text x="64" y="215" fill="#b6c3d6" font-size="21">Intel i9-9900K / UHD 630 / RX 6600 XT</text>
+ <path d="M64 254h66" stroke="#60a5fa" stroke-width="3"/>
+ <text x="64" y="299" fill="#8495ad" font-size="16">@Jhih he</text>
+ </g>
+ <g transform="translate(955 88)" fill="none" stroke="#60a5fa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M53 53h74v74H53Z M70 70h40v40H70Z M67 34v19m23-19v19m23-19v19M67 127v19m23-19v19m23-19v19M34 67h19m-19 23h19m-19 23h19m74-46h19m-19 23h19m-19 23h19"/></g>
+</svg>
